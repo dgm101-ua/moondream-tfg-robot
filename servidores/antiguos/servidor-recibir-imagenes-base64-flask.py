@@ -1,5 +1,6 @@
 from flask import Flask, request, jsonify
 import os
+import base64
 import signal
 
 app = Flask(__name__)
@@ -35,24 +36,22 @@ def upload_image():
     if not token or token != f"Bearer {API_KEY}":
         return jsonify({"error": "Acceso no autorizado"}), 401
 
-    # Verificar si la imagen está en el archivo de la solicitud
-    if 'image' not in request.files:
+    data = request.get_json()
+    if "image" not in data:
         return jsonify({"error": "No se encontró ninguna imagen"}), 400
 
-    file = request.files['image']
-    
-    # Verificar que el archivo sea una imagen PNG
-    if not file.filename.endswith('.png'):
-        return jsonify({"error": "El archivo debe ser una imagen PNG"}), 400
-
     try:
+        # Decodificar la imagen desde Base64
+        image_data = base64.b64decode(data["image"])
+
         # Crear un nombre de archivo único
         contador += 1
         image_filename = f"img-{contador}.png"
         image_path = os.path.join(UPLOAD_FOLDER, image_filename)
 
         # Guardar la imagen
-        file.save(image_path)
+        with open(image_path, "wb") as file:
+            file.write(image_data)
 
         return jsonify({"message": "Imagen recibida y guardada", "path": image_path}), 200
 
