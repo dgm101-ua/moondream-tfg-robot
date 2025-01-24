@@ -41,6 +41,37 @@ def cerrar_servidor(signal, frame):
     print("✅ Carpeta uploads limpia. Saliendo...")
     exit(0)
 
+
+# Función para construir la respuesta
+def construir_respuesta(answer):
+    respuesta = {"answer": answer}
+    
+    # Verificar si la respuesta indica que no hay globos
+    if "There are no balloons in the image." in answer:
+        respuesta["found"] = False
+        respuesta["colours"] = []
+    else:
+        respuesta["found"] = True
+        
+        # Extraer colores de la respuesta
+        palabras = answer.split()
+        colores = []
+        
+        # Lista de colores comunes en inglés
+        colores_comunes = {"red", "blue", "green", "yellow", "purple", "orange", "pink", "white", "black", "gray", "brown"}
+        
+        # Recorrer las palabras y verificar si son colores
+        # Se eliminan los caracteres especiales al final de cada palabra
+        for palabra in palabras:
+            if palabra.lower().strip('.,;?') in colores_comunes:
+                colores.append(palabra.lower().strip('.,;?'))
+        
+        # Eliminar duplicados
+        respuesta["colours"] = list(set(colores))
+    
+    return respuesta
+
+
 # INICIO APLICACIÓN #
 
 app = Flask(__name__)
@@ -116,11 +147,15 @@ def query_balloon_colour():
         answer = model.query(image, "Are there any balloons in the image? What are their color?")["answer"]
         print("\nAnswer:", answer)  # Respuesta única
 
+        # Procesar respuesta en estructura predefinida
+        response_data = construir_respuesta(answer)
+
         # Finalizar el temporizador
         end_time = time.time()
         print(f"Image processed in {end_time - start_time:.2f} seconds.")
 
-        return jsonify({"message": "Consulta procesada con éxito", "answer": answer}), 200
+        return jsonify({"message": "Consulta procesada con éxito", **response_data}), 200
+
 
     except Exception as e:
         return jsonify({"error": f"Error al procesar la imagen: {str(e)}"}), 500
