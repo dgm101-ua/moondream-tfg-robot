@@ -4,6 +4,7 @@ import signal
 import moondream as md
 from PIL import Image
 import time
+from datetime import datetime
 
 UPLOAD_FOLDER = "uploads"
 API_KEY = "tu_token_secreto_12345"
@@ -124,6 +125,7 @@ def upload_image():
 # Endpoint para cargar la imagen y hacer una consulta con el modelo
 @app.route('/balloon_colour', methods=['POST'])
 def query_balloon_colour():
+    print("\n\n--- Nueva consulta recibida ---")
     # Verificar la API Key
     token = request.headers.get('Authorization')
     if not token or token != f"Bearer {API_KEY}":
@@ -136,6 +138,22 @@ def query_balloon_colour():
     # Obtener la imagen enviada
     image_file = request.files['image']
     try:
+        # Obtener IP del cliente y marca de tiempo
+        ip_cliente = request.remote_addr.replace(":", "_")
+        ahora = datetime.now().strftime("%Y%m%d_%H%M%S")
+        # Carpeta específica para esta solicitud
+        carpeta_cliente = os.path.join(UPLOAD_FOLDER, f"{ip_cliente}")
+        os.makedirs(carpeta_cliente, exist_ok=True)
+
+        # Crear un nombre de archivo único y guardarlo como PNG
+        contador_local = int(time.time() * 1000)  # timestamp en ms para evitar colisiones
+        image_filename = f"query-{contador_local}.png"
+        image_path = os.path.join(carpeta_cliente, image_filename)
+        # Guardar la imagen en disco antes de procesar
+        image = Image.open(image_file.stream)
+        image.save(image_path)
+
+
         # Abrir la imagen
         image = Image.open(image_file.stream)  # Utilizamos .stream para trabajar con la imagen en memoria
 
