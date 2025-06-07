@@ -5,3 +5,4 @@ imagenes/*
 uploads/*
 .gitignore
 .env
+venv-linux/*

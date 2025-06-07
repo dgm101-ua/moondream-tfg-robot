@@ -13,14 +13,15 @@ import time  # Importa el módulo para medir el tiempo
 
 # Inicia el temporizador para cargar el modelo
 start_time = time.time()
-model = md.vl(model='./moondream-models/moondream-0_5b-int8.mf')  # Initialize model
+model = md.vl(model='./moondream-models/moondream-2b-int8.mf')  # Initialize model
 # model = md.vl(model='./moondream-models/moondream-2b-int8.mf')  # Initialize model
 end_time = time.time()
 print(f"Model loaded in {end_time - start_time:.2f} seconds.")
 
 
 
-image = Image.open("./imagenes/img4.jpg")  # Load image
+image = Image.open("./uploads/192.168.31.153_20250605_000238/query-1749074558141.png")  # Load image
+#image = Image.open("img-example/img3.png")  # Load image
 
 # Inicia el temporizador desde que recibe imagen hasta que imprime el prompt
 start_time = time.time()
@@ -33,7 +34,7 @@ start_time = time.time()
 
 
 # 2. Query any image
-answer = model.query(image, "What colour are the balloons?")["answer"]
+answer = model.query(image, "Is there a balloon in the image? What colour are the balloons?")["answer"]
 print("\nAnswer:", answer)  # Single response
 
 end_time = time.time()
