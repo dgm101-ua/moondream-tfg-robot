@@ -1,0 +1,100 @@
+{
+    "img5.jpg": {
+        "found": true,
+        "colours": [
+            "red",
+            "blue",
+            "orange",
+            "yellow",
+            "pink"
+        ]
+    },
+    "not-img2.jpg": {
+        "found": false,
+        "colours": []
+    },
+    "img3.png": {
+        "found": true,
+        "colours": [
+            "red"
+        ]
+    },
+    "img1.png": {
+        "found": true,
+        "colours": [
+            "white"
+        ]
+    },
+    "img2.jpg": {
+        "found": true,
+        "colours": [
+            "red"
+        ]
+    },
+    "img4.jpg": {
+        "found": true,
+        "colours": [
+            "green"
+        ]
+    },
+    "img6.png": {
+        "found": true,
+        "colours": [
+            "white"
+        ]
+    },
+    "IMG20250612151131.jpg": {
+        "found": false,
+        "colours": []
+    },
+    "IMG20250612151157.jpg": {
+        "found": true,
+        "colours": [
+            "blue"
+        ]
+    },
+    "IMG20250612151150.jpg": {
+        "found": true,
+        "colours": [
+            "blue"
+        ]
+    },
+    "IMG20250612151202.jpg": {
+        "found": true,
+        "colours": [
+            "blue"
+        ]
+    },
+    "IMG20250612151208.jpg": {
+        "found": true,
+        "colours": [
+            "blue"
+        ]
+    },
+    "IMG20250612151224.jpg": {
+        "found": true,
+        "colours": [
+            "blue"
+        ]
+    },
+    "IMG20250612151229.jpg": {
+        "found": false,
+        "colours": []
+    },
+    "IMG20250612151233.jpg": {
+        "found": false,
+        "colours": []
+    },
+    "IMG20250612151238.jpg": {
+        "found": false,
+        "colours": []
+    },
+    "IMG20250612151242.jpg": {
+        "found": false,
+        "colours": []
+    },
+    "IMG20250612151251.jpg": {
+        "found": false,
+        "colours": []
+    }
+}

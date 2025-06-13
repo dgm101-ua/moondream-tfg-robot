@@ -1,0 +1,472 @@
+
+
+=== Modelo: 2B-int8 ===
+Modelo cargado en 31.11s
+
+-- Prompt: basic-1 --
+
+[img5.jpg] -> {'answer': ' Yes, there is a balloon in this image.', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['red', 'blue', 'orange', 'yellow', 'pink']} | Time: 30.00s
+[not-img2.jpg] -> {'answer': ' No, there is no balloon in this image. The image shows a roundabout with vehicles driving through it.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 25.64s
+[img3.png] -> {'answer': ' Yes, there is a red balloon in the image.', 'found': True, 'colours': ['red']} | GT: {'found': True, 'colours': ['red']} | Time: 23.28s
+[img1.png] -> {'answer': ' Yes, there is a balloon in the image.', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['white']} | Time: 21.60s
+[img2.jpg] -> {'answer': ' Yes, there is a red balloon in the image.', 'found': True, 'colours': ['red']} | GT: {'found': True, 'colours': ['red']} | Time: 22.57s
+[img4.jpg] -> {'answer': ' Yes, there is a green balloon in the image.', 'found': True, 'colours': ['green']} | GT: {'found': True, 'colours': ['green']} | Time: 15.54s
+[img6.png] -> {'answer': ' No, there is no balloon in this image. The image features a white sphere, which is a light fixture, placed in a garden setting.', 'found': False, 'colours': []} | GT: {'found': True, 'colours': ['white']} | Time: 35.27s
+[IMG20250612151131.jpg] -> {'answer': ' No, there is no balloon in this image. The image only shows a curtain and a window.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 23.48s
+[IMG20250612151157.jpg] -> {'answer': ' Yes, there is a blue balloon in the image.', 'found': True, 'colours': ['blue']} | GT: {'found': False, 'colours': ['blue']} | Time: 27.86s
+[IMG20250612151150.jpg] -> {'answer': ' Yes, there is a blue balloon in the image.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 27.38s
+[IMG20250612151202.jpg] -> {'answer': ' Yes, there is a blue balloon in the image.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 27.34s
+[IMG20250612151208.jpg] -> {'answer': ' Yes, there is a blue balloon in the image.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 27.37s
+[IMG20250612151224.jpg] -> {'answer': ' Yes, there is a blue balloon in the image.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 27.25s
+[IMG20250612151229.jpg] -> {'answer': ' No, there is no balloon in this image. The image features a counter with a blue bottle, a plastic bottle, and a soda bottle.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 34.67s
+[IMG20250612151233.jpg] -> {'answer': ' Yes, there is a blue balloon in the image.', 'found': True, 'colours': ['blue']} | GT: {'found': False, 'colours': []} | Time: 32.14s
+[IMG20250612151238.jpg] -> {'answer': ' No, there is no balloon in this image. The image shows a floor with a marble-like pattern and a white column.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 34.01s
+[IMG20250612151242.jpg] -> {'answer': ' No, there is no balloon in this image. The image shows a table with a blanket on it, and the floor is made of terrazzo.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 34.97s
+[IMG20250612151251.jpg] -> {'answer': ' No, there is no balloon in this image. The image only shows a floor with a pattern of small stones.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 32.81s
+
+Resumen para prompt 'basic-1':
+Latencia media: 27.96 s
+Precisión detección: 83.33%
+Precisión colores: 38.89%
+
+-- Prompt: basic-2 --
+
+[img5.jpg] -> {'answer': ' Yes, there are many balloons in the picture, scattered on the floor and covering the couch.', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['red', 'blue', 'orange', 'yellow', 'pink']} | Time: 33.06s
+[not-img2.jpg] -> {'answer': ' No, there are no balloons in this picture. The image shows a roundabout with vehicles driving through it.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 25.34s
+[img3.png] -> {'answer': ' Yes, there is a red balloon in the picture.', 'found': True, 'colours': ['red']} | GT: {'found': True, 'colours': ['red']} | Time: 22.83s
+[img1.png] -> {'answer': ' No, there are no balloons in the picture. The image only shows a wooden floor and a wall.', 'found': False, 'colours': []} | GT: {'found': True, 'colours': ['white']} | Time: 25.86s
+[img2.jpg] -> {'answer': ' Yes, there is a red balloon in the picture.', 'found': True, 'colours': ['red']} | GT: {'found': True, 'colours': ['red']} | Time: 22.64s
+[img4.jpg] -> {'answer': ' Yes, there is a green balloon in the image.', 'found': True, 'colours': ['green']} | GT: {'found': True, 'colours': ['green']} | Time: 15.34s
+[img6.png] -> {'answer': ' No, there are no balloons in the picture. The image features a garden scene with a white sphere, a plant, and a hedge.', 'found': False, 'colours': []} | GT: {'found': True, 'colours': ['white']} | Time: 34.10s
+[IMG20250612151131.jpg] -> {'answer': ' No, there are no balloons in the picture. The image only shows a window with curtains.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 24.66s
+[IMG20250612151157.jpg] -> {'answer': ' Yes, there is a blue balloon visible in the image.', 'found': True, 'colours': ['blue']} | GT: {'found': False, 'colours': ['blue']} | Time: 30.21s
+[IMG20250612151150.jpg] -> {'answer': ' Yes, there is a blue balloon in the picture.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 30.11s
+[IMG20250612151202.jpg] -> {'answer': ' Yes, there is a blue balloon in the picture.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 29.21s
+[IMG20250612151208.jpg] -> {'answer': ' Yes, there is a blue balloon in the picture.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 28.79s
+[IMG20250612151224.jpg] -> {'answer': ' Yes, there is a blue balloon in the picture.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 28.83s
+[IMG20250612151229.jpg] -> {'answer': ' No, there are no balloons in the picture. The image shows a counter with a water bottle, a soda bottle, and a trash can.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 32.56s
+[IMG20250612151233.jpg] -> {'answer': ' Yes, there is a blue balloon in the picture.', 'found': True, 'colours': ['blue']} | GT: {'found': False, 'colours': []} | Time: 29.48s
+[IMG20250612151238.jpg] -> {'answer': ' No, there are no balloons in the picture. The image only shows a floor and a column.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 30.66s
+[IMG20250612151242.jpg] -> {'answer': ' No, there are no balloons in the picture. The focus is on the table, chair, and the floor.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 31.56s
+[IMG20250612151251.jpg] -> {'answer': ' No, there are no balloons in the picture. The image only shows a floor with a pattern of small stones.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 31.81s
+
+Resumen para prompt 'basic-2':
+Latencia media: 28.17 s
+Precisión detección: 77.78%
+Precisión colores: 38.89%
+
+-- Prompt: basic-3 --
+
+[img5.jpg] -> {'answer': ' Yes, there is one or more balloons in the image.', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['red', 'blue', 'orange', 'yellow', 'pink']} | Time: 29.29s
+[not-img2.jpg] -> {'answer': ' No, the image does not contain any balloons.', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 21.52s
+[img3.png] -> {'answer': ' There is only one balloon in the image.', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['red']} | Time: 21.73s
+[img1.png] -> {'answer': ' There is one balloon in the image.', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['white']} | Time: 21.38s
+[img2.jpg] -> {'answer': ' Yes, there is one red balloon in the image.', 'found': True, 'colours': ['red']} | GT: {'found': True, 'colours': ['red']} | Time: 22.58s
+[img4.jpg] -> {'answer': ' Yes, there is one green balloon in the image.', 'found': True, 'colours': ['green']} | GT: {'found': True, 'colours': ['green']} | Time: 16.37s
+[img6.png] -> {'answer': ' No, the image does not contain one or more balloons. It features a white sphere, a plant, and a grassy area.', 'found': True, 'colours': ['white']} | GT: {'found': True, 'colours': ['white']} | Time: 32.90s
+[IMG20250612151131.jpg] -> {'answer': ' No, the image does not contain one or more balloons. It only features a curtain and a window.', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 24.55s
+[IMG20250612151157.jpg] -> {'answer': ' Yes, there is one balloon in the image.', 'found': True, 'colours': []} | GT: {'found': False, 'colours': ['blue']} | Time: 29.23s
+[IMG20250612151150.jpg] -> {'answer': ' Yes, there is one blue balloon in the image.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 29.09s
+[IMG20250612151202.jpg] -> {'answer': ' Yes, there is one blue balloon in the image.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 29.13s
+[IMG20250612151208.jpg] -> {'answer': ' Yes, there is one large blue balloon in the image.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 29.37s
+[IMG20250612151224.jpg] -> {'answer': ' Yes, the image contains one or more balloons.', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['blue']} | Time: 28.85s
+[IMG20250612151229.jpg] -> {'answer': ' No, the image does not contain one or more balloons.', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 29.25s
+[IMG20250612151233.jpg] -> {'answer': ' Yes, there is one or more balloons in the image.', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 29.30s
+[IMG20250612151238.jpg] -> {'answer': ' No, the image does not contain one or more balloons.', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 29.23s
+[IMG20250612151242.jpg] -> {'answer': ' No, the image does not contain one or more balloons.', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 29.25s
+[IMG20250612151251.jpg] -> {'answer': ' No, the image does not contain one or more balloons. It only shows a floor with a pattern of small stones.', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 34.71s
+
+Resumen para prompt 'basic-3':
+Latencia media: 27.10 s
+Precisión detección: 55.56%
+Precisión colores: 33.33%
+
+-- Prompt: basic-4 --
+
+[img5.jpg] -> {'answer': ' 12', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['red', 'blue', 'orange', 'yellow', 'pink']} | Time: 29.48s
+[not-img2.jpg] -> {'answer': ' No', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 25.77s
+[img3.png] -> {'answer': ' Yes', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['red']} | Time: 21.35s
+[img1.png] -> {'answer': ' Yes', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['white']} | Time: 21.96s
+[img2.jpg] -> {'answer': ' Yes', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['red']} | Time: 21.42s
+[img4.jpg] -> {'answer': ' Yes', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['green']} | Time: 13.38s
+[img6.png] -> {'answer': ' No', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['white']} | Time: 28.33s
+[IMG20250612151131.jpg] -> {'answer': ' No', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 21.29s
+[IMG20250612151157.jpg] -> {'answer': ' Yes', 'found': True, 'colours': []} | GT: {'found': False, 'colours': ['blue']} | Time: 27.72s
+[IMG20250612151150.jpg] -> {'answer': ' Yes', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['blue']} | Time: 28.71s
+[IMG20250612151202.jpg] -> {'answer': ' Yes', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['blue']} | Time: 27.55s
+[IMG20250612151208.jpg] -> {'answer': ' Yes', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['blue']} | Time: 27.68s
+[IMG20250612151224.jpg] -> {'answer': ' Yes', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['blue']} | Time: 28.21s
+[IMG20250612151229.jpg] -> {'answer': ' No', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 28.42s
+[IMG20250612151233.jpg] -> {'answer': ' No', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 27.33s
+[IMG20250612151238.jpg] -> {'answer': ' No', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 27.34s
+[IMG20250612151242.jpg] -> {'answer': ' No', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 27.67s
+[IMG20250612151251.jpg] -> {'answer': ' No', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 27.14s
+
+Resumen para prompt 'basic-4':
+Latencia media: 25.60 s
+Precisión detección: 55.56%
+Precisión colores: 0.00%
+
+-- Prompt: basic-5 --
+
+[img5.jpg] -> {'answer': ' Yes', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['red', 'blue', 'orange', 'yellow', 'pink']} | Time: 27.59s
+[not-img2.jpg] -> {'answer': ' No', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 19.87s
+[img3.png] -> {'answer': ' Yes', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['red']} | Time: 19.06s
+[img1.png] -> {'answer': ' Yes', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['white']} | Time: 19.59s
+[img2.jpg] -> {'answer': ' Yes', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['red']} | Time: 22.26s
+[img4.jpg] -> {'answer': ' Yes', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['green']} | Time: 13.19s
+[img6.png] -> {'answer': ' No', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['white']} | Time: 28.50s
+[IMG20250612151131.jpg] -> {'answer': ' No', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 22.01s
+[IMG20250612151157.jpg] -> {'answer': ' Yes', 'found': True, 'colours': []} | GT: {'found': False, 'colours': ['blue']} | Time: 28.23s
+[IMG20250612151150.jpg] -> {'answer': ' Yes', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['blue']} | Time: 28.37s
+[IMG20250612151202.jpg] -> {'answer': ' Yes', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['blue']} | Time: 27.56s
+[IMG20250612151208.jpg] -> {'answer': ' Yes', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['blue']} | Time: 27.48s
+[IMG20250612151224.jpg] -> {'answer': ' No', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['blue']} | Time: 27.09s
+[IMG20250612151229.jpg] -> {'answer': ' No', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 26.34s
+[IMG20250612151233.jpg] -> {'answer': ' No', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 27.07s
+[IMG20250612151238.jpg] -> {'answer': ' No', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 27.24s
+[IMG20250612151242.jpg] -> {'answer': ' No', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 27.26s
+[IMG20250612151251.jpg] -> {'answer': ' No', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 28.14s
+
+Resumen para prompt 'basic-5':
+Latencia media: 24.83 s
+Precisión detección: 55.56%
+Precisión colores: 0.00%
+
+-- Prompt: basic-6 --
+
+[img5.jpg] -> {'answer': ' Yes', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['red', 'blue', 'orange', 'yellow', 'pink']} | Time: 28.07s
+[not-img2.jpg] -> {'answer': ' No', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 20.29s
+[img3.png] -> {'answer': ' Yes, balloons appear in the image.', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['red']} | Time: 21.87s
+[img1.png] -> {'answer': ' Yes', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['white']} | Time: 21.52s
+[img2.jpg] -> {'answer': ' Yes, balloons appear in the image.', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['red']} | Time: 23.49s
+[img4.jpg] -> {'answer': ' Yes', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['green']} | Time: 14.21s
+[img6.png] -> {'answer': ' No', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['white']} | Time: 29.71s
+[IMG20250612151131.jpg] -> {'answer': ' No', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 20.47s
+[IMG20250612151157.jpg] -> {'answer': ' Yes', 'found': True, 'colours': []} | GT: {'found': False, 'colours': ['blue']} | Time: 27.46s
+[IMG20250612151150.jpg] -> {'answer': ' Yes, there is a blue balloon in the image.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 30.50s
+[IMG20250612151202.jpg] -> {'answer': ' Yes, balloons appear in the image.', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['blue']} | Time: 29.84s
+[IMG20250612151208.jpg] -> {'answer': ' Yes, the image shows a blue balloon.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 30.66s
+[IMG20250612151224.jpg] -> {'answer': ' Yes, there is a blue balloon in the image.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 30.36s
+[IMG20250612151229.jpg] -> {'answer': ' No', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 27.87s
+[IMG20250612151233.jpg] -> {'answer': ' Yes, there are balloons in the image.', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 31.50s
+[IMG20250612151238.jpg] -> {'answer': ' No', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 29.03s
+[IMG20250612151242.jpg] -> {'answer': ' No', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 28.26s
+[IMG20250612151251.jpg] -> {'answer': ' No', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 28.47s
+
+Resumen para prompt 'basic-6':
+Latencia media: 26.31 s
+Precisión detección: 55.56%
+Precisión colores: 16.67%
+
+-- Prompt: basic-7 --
+
+[img5.jpg] -> {'answer': ' Yes', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['red', 'blue', 'orange', 'yellow', 'pink']} | Time: 29.36s
+[not-img2.jpg] -> {'answer': ' No', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 20.57s
+[img3.png] -> {'answer': ' Yes', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['red']} | Time: 20.99s
+[img1.png] -> {'answer': ' No', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['white']} | Time: 20.39s
+[img2.jpg] -> {'answer': ' Yes', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['red']} | Time: 20.58s
+[img4.jpg] -> {'answer': ' Yes', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['green']} | Time: 12.93s
+[img6.png] -> {'answer': ' No', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['white']} | Time: 27.70s
+[IMG20250612151131.jpg] -> {'answer': ' No', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 20.09s
+[IMG20250612151157.jpg] -> {'answer': ' Yes, there is a blue balloon near the table.', 'found': True, 'colours': ['blue']} | GT: {'found': False, 'colours': ['blue']} | Time: 29.68s
+[IMG20250612151150.jpg] -> {'answer': ' Yes', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['blue']} | Time: 27.35s
+[IMG20250612151202.jpg] -> {'answer': ' Yes', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['blue']} | Time: 30.58s
+[IMG20250612151208.jpg] -> {'answer': ' No', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['blue']} | Time: 27.79s
+[IMG20250612151224.jpg] -> {'answer': ' No, there are no balloons in the image.', 'found': False, 'colours': []} | GT: {'found': True, 'colours': ['blue']} | Time: 29.83s
+[IMG20250612151229.jpg] -> {'answer': ' No, there are no balloons in the image.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 29.75s
+[IMG20250612151233.jpg] -> {'answer': ' Yes, there are balloons in the image.', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 29.30s
+[IMG20250612151238.jpg] -> {'answer': ' No', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 27.49s
+[IMG20250612151242.jpg] -> {'answer': ' No', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 27.55s
+[IMG20250612151251.jpg] -> {'answer': ' No', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 28.18s
+
+Resumen para prompt 'basic-7':
+Latencia media: 25.56 s
+Precisión detección: 55.56%
+Precisión colores: 0.00%
+
+-- Prompt: list-colors-1 --
+
+[img5.jpg] -> {'answer': ' Red, orange, yellow, blue, and pink', 'found': True, 'colours': ['pink', 'blue', 'orange', 'yellow', 'red']} | GT: {'found': True, 'colours': ['red', 'blue', 'orange', 'yellow', 'pink']} | Time: 29.17s
+[not-img2.jpg] -> {'answer': ' 0', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 19.46s
+[img3.png] -> {'answer': ' 1', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['red']} | Time: 19.43s
+[img1.png] -> {'answer': ' There is only one balloon color present in the image, which is white.', 'found': True, 'colours': ['white']} | GT: {'found': True, 'colours': ['white']} | Time: 22.64s
+[img2.jpg] -> {'answer': ' 1. Red', 'found': True, 'colours': ['red']} | GT: {'found': True, 'colours': ['red']} | Time: 19.87s
+[img4.jpg] -> {'answer': ' 1', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['green']} | Time: 12.31s
+[img6.png] -> {'answer': ' There are no balloons in the image.', 'found': False, 'colours': []} | GT: {'found': True, 'colours': ['white']} | Time: 28.08s
+[IMG20250612151131.jpg] -> {'answer': ' 0', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 20.83s
+[IMG20250612151157.jpg] -> {'answer': ' The balloon is blue.', 'found': True, 'colours': ['blue']} | GT: {'found': False, 'colours': ['blue']} | Time: 29.03s
+[IMG20250612151150.jpg] -> {'answer': ' 1', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['blue']} | Time: 26.25s
+[IMG20250612151202.jpg] -> {'answer': ' 1', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['blue']} | Time: 26.26s
+[IMG20250612151208.jpg] -> {'answer': ' 1', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['blue']} | Time: 26.48s
+[IMG20250612151224.jpg] -> {'answer': ' There is one blue balloon in the image.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 30.48s
+[IMG20250612151229.jpg] -> {'answer': ' There are no balloons in the image.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 29.49s
+[IMG20250612151233.jpg] -> {'answer': ' There is one blue balloon and one red balloon in the image.', 'found': True, 'colours': ['red', 'blue']} | GT: {'found': False, 'colours': []} | Time: 30.11s
+[IMG20250612151238.jpg] -> {'answer': ' There are no balloons in the image.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 28.26s
+[IMG20250612151242.jpg] -> {'answer': ' There are no balloons in the image.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 28.47s
+[IMG20250612151251.jpg] -> {'answer': ' There are no balloons in the image.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 30.45s
+
+Resumen para prompt 'list-colors-1':
+Latencia media: 25.39 s
+Precisión detección: 72.22%
+Precisión colores: 22.22%
+
+-- Prompt: list-colors-2 --
+
+[img5.jpg] -> {'answer': ' The colors of the balloons in the image are red, yellow, and blue.', 'found': True, 'colours': ['red', 'yellow', 'blue']} | GT: {'found': True, 'colours': ['red', 'blue', 'orange', 'yellow', 'pink']} | Time: 30.60s
+[not-img2.jpg] -> {'answer': ' The colors of the balloons in the image are red and white.', 'found': True, 'colours': ['white', 'red']} | GT: {'found': False, 'colours': []} | Time: 21.16s
+[img3.png] -> {'answer': ' The colors of the balloons in the image are red and black.', 'found': True, 'colours': ['red', 'black']} | GT: {'found': True, 'colours': ['red']} | Time: 21.19s
+[img1.png] -> {'answer': ' The colors of the balloons in the image are white and orange.', 'found': True, 'colours': ['white', 'orange']} | GT: {'found': True, 'colours': ['white']} | Time: 23.42s
+[img2.jpg] -> {'answer': ' The colors of the balloons in the image are red and green.', 'found': True, 'colours': ['red', 'green']} | GT: {'found': True, 'colours': ['red']} | Time: 24.12s
+[img4.jpg] -> {'answer': ' The colors of the balloons in the image are green and black.', 'found': True, 'colours': ['green', 'black']} | GT: {'found': True, 'colours': ['green']} | Time: 15.23s
+[img6.png] -> {'answer': ' The colors of the balloons in the image are white and green.', 'found': True, 'colours': ['white', 'green']} | GT: {'found': True, 'colours': ['white']} | Time: 30.50s
+[IMG20250612151131.jpg] -> {'answer': ' The colors of the balloons in the image are white and blue.', 'found': True, 'colours': ['white', 'blue']} | GT: {'found': False, 'colours': []} | Time: 24.20s
+[IMG20250612151157.jpg] -> {'answer': ' The colors of the balloons in the image are blue and red.', 'found': True, 'colours': ['red', 'blue']} | GT: {'found': False, 'colours': ['blue']} | Time: 29.18s
+[IMG20250612151150.jpg] -> {'answer': ' The colors of the balloons in the image are blue and white.', 'found': True, 'colours': ['white', 'blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 29.79s
+[IMG20250612151202.jpg] -> {'answer': ' The colors of the balloons in the image are blue and white.', 'found': True, 'colours': ['white', 'blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 30.15s
+[IMG20250612151208.jpg] -> {'answer': ' The colors of the balloons in the image are blue and white.', 'found': True, 'colours': ['white', 'blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 31.14s
+[IMG20250612151224.jpg] -> {'answer': ' The colors of the balloons in the image are blue and red.', 'found': True, 'colours': ['red', 'blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 29.34s
+[IMG20250612151229.jpg] -> {'answer': ' The colors of the balloons in the image are blue and red.', 'found': True, 'colours': ['red', 'blue']} | GT: {'found': False, 'colours': []} | Time: 29.47s
+[IMG20250612151233.jpg] -> {'answer': ' The colors of the balloons in the image are blue and red.', 'found': True, 'colours': ['red', 'blue']} | GT: {'found': False, 'colours': []} | Time: 27.54s
+[IMG20250612151238.jpg] -> {'answer': ' The colors of the balloons in the image are white and blue.', 'found': True, 'colours': ['white', 'blue']} | GT: {'found': False, 'colours': []} | Time: 27.64s
+[IMG20250612151242.jpg] -> {'answer': ' The colors of the balloons in the image are red and white.', 'found': True, 'colours': ['white', 'red']} | GT: {'found': False, 'colours': []} | Time: 27.73s
+[IMG20250612151251.jpg] -> {'answer': ' The colors of the balloons in the image are red, white, and blue.', 'found': True, 'colours': ['white', 'red', 'blue']} | GT: {'found': False, 'colours': []} | Time: 27.51s
+
+Resumen para prompt 'list-colors-2':
+Latencia media: 26.66 s
+Precisión detección: 55.56%
+Precisión colores: 55.56%
+
+-- Prompt: list-colors-3 --
+
+[img5.jpg] -> {'answer': ' The image shows a variety of balloons in different colors, including red, blue, yellow, and orange.', 'found': True, 'colours': ['red', 'yellow', 'orange', 'blue']} | GT: {'found': True, 'colours': ['red', 'blue', 'orange', 'yellow', 'pink']} | Time: 28.67s
+[not-img2.jpg] -> {'answer': ' There are no balloons in the image.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 19.54s
+[img3.png] -> {'answer': ' There is only one balloon in the image, which is red.', 'found': True, 'colours': ['red']} | GT: {'found': True, 'colours': ['red']} | Time: 20.44s
+[img1.png] -> {'answer': ' There is only one balloon in the image, and it is white.', 'found': True, 'colours': ['white']} | GT: {'found': True, 'colours': ['white']} | Time: 20.57s
+[img2.jpg] -> {'answer': ' There is only one red balloon in the image.', 'found': True, 'colours': ['red']} | GT: {'found': True, 'colours': ['red']} | Time: 20.12s
+[img4.jpg] -> {'answer': ' There is only one green balloon in the image.', 'found': True, 'colours': ['green']} | GT: {'found': True, 'colours': ['green']} | Time: 13.25s
+[img6.png] -> {'answer': ' There are no balloons in the image.', 'found': False, 'colours': []} | GT: {'found': True, 'colours': ['white']} | Time: 26.27s
+[IMG20250612151131.jpg] -> {'answer': ' There are no balloons in the image.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 19.54s
+[IMG20250612151157.jpg] -> {'answer': ' There is only one blue balloon visible in the image.', 'found': True, 'colours': ['blue']} | GT: {'found': False, 'colours': ['blue']} | Time: 26.54s
+[IMG20250612151150.jpg] -> {'answer': ' There is only one blue balloon in the image.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 26.55s
+[IMG20250612151202.jpg] -> {'answer': ' There is only one blue balloon in the image.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 26.19s
+[IMG20250612151208.jpg] -> {'answer': ' There is only one blue balloon in the image.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 26.64s
+[IMG20250612151224.jpg] -> {'answer': ' There is only one blue balloon in the image.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 28.83s
+[IMG20250612151229.jpg] -> {'answer': ' There are no balloons in the image.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 28.68s
+[IMG20250612151233.jpg] -> {'answer': ' There are no balloons in the image.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 28.27s
+[IMG20250612151238.jpg] -> {'answer': ' There are no balloons in the image.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 27.95s
+[IMG20250612151242.jpg] -> {'answer': ' There are no balloons in the image.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 30.45s
+[IMG20250612151251.jpg] -> {'answer': ' There are no balloons in the image.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 28.67s
+
+Resumen para prompt 'list-colors-3':
+Latencia media: 24.84 s
+Precisión detección: 88.89%
+Precisión colores: 50.00%
+
+-- Prompt: list-colors-4 --
+
+[img5.jpg] -> {'answer': ' Orange, Blue, Yellow, Pink, Purple', 'found': True, 'colours': ['purple', 'blue', 'pink', 'orange', 'yellow']} | GT: {'found': True, 'colours': ['red', 'blue', 'orange', 'yellow', 'pink']} | Time: 27.34s
+[not-img2.jpg] -> {'answer': ' White', 'found': True, 'colours': ['white']} | GT: {'found': False, 'colours': []} | Time: 20.66s
+[img3.png] -> {'answer': ' Red', 'found': True, 'colours': ['red']} | GT: {'found': True, 'colours': ['red']} | Time: 19.78s
+[img1.png] -> {'answer': ' White', 'found': True, 'colours': ['white']} | GT: {'found': True, 'colours': ['white']} | Time: 22.02s
+[img2.jpg] -> {'answer': ' Red', 'found': True, 'colours': ['red']} | GT: {'found': True, 'colours': ['red']} | Time: 21.96s
+[img4.jpg] -> {'answer': ' Green', 'found': True, 'colours': ['green']} | GT: {'found': True, 'colours': ['green']} | Time: 13.59s
+[img6.png] -> {'answer': ' White', 'found': True, 'colours': ['white']} | GT: {'found': True, 'colours': ['white']} | Time: 28.05s
+[IMG20250612151131.jpg] -> {'answer': ' White', 'found': True, 'colours': ['white']} | GT: {'found': False, 'colours': []} | Time: 20.22s
+[IMG20250612151157.jpg] -> {'answer': ' Blue', 'found': True, 'colours': ['blue']} | GT: {'found': False, 'colours': ['blue']} | Time: 26.93s
+[IMG20250612151150.jpg] -> {'answer': ' Blue', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 27.11s
+[IMG20250612151202.jpg] -> {'answer': ' Blue', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 27.15s
+[IMG20250612151208.jpg] -> {'answer': ' Blue', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 28.58s
+[IMG20250612151224.jpg] -> {'answer': ' Blue', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 26.85s
+[IMG20250612151229.jpg] -> {'answer': ' Blue', 'found': True, 'colours': ['blue']} | GT: {'found': False, 'colours': []} | Time: 27.67s
+[IMG20250612151233.jpg] -> {'answer': ' Blue', 'found': True, 'colours': ['blue']} | GT: {'found': False, 'colours': []} | Time: 28.98s
+[IMG20250612151238.jpg] -> {'answer': ' Blue', 'found': True, 'colours': ['blue']} | GT: {'found': False, 'colours': []} | Time: 29.09s
+[IMG20250612151242.jpg] -> {'answer': ' White', 'found': True, 'colours': ['white']} | GT: {'found': False, 'colours': []} | Time: 27.83s
+[IMG20250612151251.jpg] -> {'answer': ' White', 'found': True, 'colours': ['white']} | GT: {'found': False, 'colours': []} | Time: 28.60s
+
+Resumen para prompt 'list-colors-4':
+Latencia media: 25.13 s
+Precisión detección: 55.56%
+Precisión colores: 55.56%
+
+-- Prompt: list-colors-5 --
+
+[img5.jpg] -> {'answer': ' Orange, Blue, Yellow, Red', 'found': True, 'colours': ['red', 'blue', 'yellow', 'orange']} | GT: {'found': True, 'colours': ['red', 'blue', 'orange', 'yellow', 'pink']} | Time: 31.90s
+[not-img2.jpg] -> {'answer': ' White', 'found': True, 'colours': ['white']} | GT: {'found': False, 'colours': []} | Time: 21.97s
+[img3.png] -> {'answer': ' Red', 'found': True, 'colours': ['red']} | GT: {'found': True, 'colours': ['red']} | Time: 20.67s
+[img1.png] -> {'answer': ' White', 'found': True, 'colours': ['white']} | GT: {'found': True, 'colours': ['white']} | Time: 21.96s
+[img2.jpg] -> {'answer': ' Red', 'found': True, 'colours': ['red']} | GT: {'found': True, 'colours': ['red']} | Time: 20.49s
+[img4.jpg] -> {'answer': ' Green', 'found': True, 'colours': ['green']} | GT: {'found': True, 'colours': ['green']} | Time: 13.19s
+[img6.png] -> {'answer': ' White', 'found': True, 'colours': ['white']} | GT: {'found': True, 'colours': ['white']} | Time: 29.94s
+[IMG20250612151131.jpg] -> {'answer': ' White', 'found': True, 'colours': ['white']} | GT: {'found': False, 'colours': []} | Time: 21.04s
+[IMG20250612151157.jpg] -> {'answer': ' Blue', 'found': True, 'colours': ['blue']} | GT: {'found': False, 'colours': ['blue']} | Time: 28.32s
+[IMG20250612151150.jpg] -> {'answer': ' Blue', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 28.92s
+[IMG20250612151202.jpg] -> {'answer': ' Blue', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 30.32s
+[IMG20250612151208.jpg] -> {'answer': ' Blue', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 29.67s
+[IMG20250612151224.jpg] -> {'answer': ' Blue', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 27.96s
+[IMG20250612151229.jpg] -> {'answer': ' Blue', 'found': True, 'colours': ['blue']} | GT: {'found': False, 'colours': []} | Time: 27.90s
+[IMG20250612151233.jpg] -> {'answer': ' Blue', 'found': True, 'colours': ['blue']} | GT: {'found': False, 'colours': []} | Time: 27.55s
+[IMG20250612151238.jpg] -> {'answer': ' Blue', 'found': True, 'colours': ['blue']} | GT: {'found': False, 'colours': []} | Time: 27.76s
+[IMG20250612151242.jpg] -> {'answer': ' White', 'found': True, 'colours': ['white']} | GT: {'found': False, 'colours': []} | Time: 27.07s
+[IMG20250612151251.jpg] -> {'answer': ' White', 'found': True, 'colours': ['white']} | GT: {'found': False, 'colours': []} | Time: 27.86s
+
+Resumen para prompt 'list-colors-5':
+Latencia media: 25.81 s
+Precisión detección: 55.56%
+Precisión colores: 55.56%
+
+-- Prompt: list-colors-6 --
+
+[img5.jpg] -> {'answer': ' Orange, Yellow, Blue, Red', 'found': True, 'colours': ['red', 'blue', 'yellow', 'orange']} | GT: {'found': True, 'colours': ['red', 'blue', 'orange', 'yellow', 'pink']} | Time: 30.63s
+[not-img2.jpg] -> {'answer': ' No', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 21.53s
+[img3.png] -> {'answer': ' Red', 'found': True, 'colours': ['red']} | GT: {'found': True, 'colours': ['red']} | Time: 20.54s
+[img1.png] -> {'answer': ' White', 'found': True, 'colours': ['white']} | GT: {'found': True, 'colours': ['white']} | Time: 19.57s
+[img2.jpg] -> {'answer': ' Red', 'found': True, 'colours': ['red']} | GT: {'found': True, 'colours': ['red']} | Time: 20.72s
+[img4.jpg] -> {'answer': ' Green', 'found': True, 'colours': ['green']} | GT: {'found': True, 'colours': ['green']} | Time: 14.22s
+[img6.png] -> {'answer': ' White', 'found': True, 'colours': ['white']} | GT: {'found': True, 'colours': ['white']} | Time: 32.81s
+[IMG20250612151131.jpg] -> {'answer': ' No', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 24.24s
+[IMG20250612151157.jpg] -> {'answer': ' Blue', 'found': True, 'colours': ['blue']} | GT: {'found': False, 'colours': ['blue']} | Time: 29.70s
+[IMG20250612151150.jpg] -> {'answer': ' Blue', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 28.62s
+[IMG20250612151202.jpg] -> {'answer': ' Blue', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 31.43s
+[IMG20250612151208.jpg] -> {'answer': ' Blue', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 30.75s
+[IMG20250612151224.jpg] -> {'answer': ' Blue', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 29.92s
+[IMG20250612151229.jpg] -> {'answer': ' No', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 28.11s
+[IMG20250612151233.jpg] -> {'answer': ' Blue', 'found': True, 'colours': ['blue']} | GT: {'found': False, 'colours': []} | Time: 29.64s
+[IMG20250612151238.jpg] -> {'answer': ' Blue', 'found': True, 'colours': ['blue']} | GT: {'found': False, 'colours': []} | Time: 30.00s
+[IMG20250612151242.jpg] -> {'answer': ' No', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 29.06s
+[IMG20250612151251.jpg] -> {'answer': ' No', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 28.74s
+
+Resumen para prompt 'list-colors-6':
+Latencia media: 26.68 s
+Precisión detección: 55.56%
+Precisión colores: 55.56%
+
+-- Prompt: list-colors-7 --
+
+[img5.jpg] -> {'answer': ' The balloon hues visible in the image are red, orange, yellow, and blue.', 'found': True, 'colours': ['red', 'yellow', 'blue', 'orange']} | GT: {'found': True, 'colours': ['red', 'blue', 'orange', 'yellow', 'pink']} | Time: 33.72s
+[not-img2.jpg] -> {'answer': ' There are no balloons in the image.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 23.21s
+[img3.png] -> {'answer': ' The balloon is red.', 'found': True, 'colours': ['red']} | GT: {'found': True, 'colours': ['red']} | Time: 21.61s
+[img1.png] -> {'answer': ' The balloon is white and orange.', 'found': True, 'colours': ['white', 'orange']} | GT: {'found': True, 'colours': ['white']} | Time: 24.01s
+[img2.jpg] -> {'answer': ' The balloon is red.', 'found': True, 'colours': ['red']} | GT: {'found': True, 'colours': ['red']} | Time: 22.50s
+[img4.jpg] -> {'answer': ' The balloon is green.', 'found': True, 'colours': ['green']} | GT: {'found': True, 'colours': ['green']} | Time: 14.64s
+[img6.png] -> {'answer': ' The balloon hues are white.', 'found': True, 'colours': ['white']} | GT: {'found': True, 'colours': ['white']} | Time: 30.26s
+[IMG20250612151131.jpg] -> {'answer': ' There are no balloons in the image.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 22.25s
+[IMG20250612151157.jpg] -> {'answer': ' The balloon is blue.', 'found': True, 'colours': ['blue']} | GT: {'found': False, 'colours': ['blue']} | Time: 27.70s
+[IMG20250612151150.jpg] -> {'answer': ' The balloon is blue.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 27.76s
+[IMG20250612151202.jpg] -> {'answer': ' The balloon is blue.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 27.83s
+[IMG20250612151208.jpg] -> {'answer': ' The balloon is blue.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 28.64s
+[IMG20250612151224.jpg] -> {'answer': ' The balloon is blue.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 28.86s
+[IMG20250612151229.jpg] -> {'answer': ' The balloon hues I can see are blue and red.', 'found': True, 'colours': ['red', 'blue']} | GT: {'found': False, 'colours': []} | Time: 32.27s
+[IMG20250612151233.jpg] -> {'answer': ' The balloon hues I can see are blue and white.', 'found': True, 'colours': ['white', 'blue']} | GT: {'found': False, 'colours': []} | Time: 32.61s
+[IMG20250612151238.jpg] -> {'answer': ' The balloon hues I can see in the image are blue and white.', 'found': True, 'colours': ['white', 'blue']} | GT: {'found': False, 'colours': []} | Time: 33.08s
+[IMG20250612151242.jpg] -> {'answer': ' The balloon hues I can see in the image are red, white, and blue.', 'found': True, 'colours': ['white', 'red', 'blue']} | GT: {'found': False, 'colours': []} | Time: 33.10s
+[IMG20250612151251.jpg] -> {'answer': ' The balloon hues I detect are pink, red, and white.', 'found': True, 'colours': ['white', 'red', 'pink']} | GT: {'found': False, 'colours': []} | Time: 33.82s
+
+Resumen para prompt 'list-colors-7':
+Latencia media: 27.66 s
+Precisión detección: 66.67%
+Precisión colores: 55.56%
+
+-- Prompt: two-step-1 --
+
+[img5.jpg] -> {'answer': ' Yes, there are balloons in the image. They are various colors, including red, blue, and yellow.', 'found': True, 'colours': ['red', 'yellow', 'blue']} | GT: {'found': True, 'colours': ['red', 'blue', 'orange', 'yellow', 'pink']} | Time: 36.37s
+[not-img2.jpg] -> {'answer': ' No, there are no balloons in the image.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 24.26s
+[img3.png] -> {'answer': ' Yes, there are balloons in the image. They are red.', 'found': True, 'colours': ['red']} | GT: {'found': True, 'colours': ['red']} | Time: 23.74s
+[img1.png] -> {'answer': ' Yes, there are balloons in the image. They are white and orange in color.', 'found': True, 'colours': ['white', 'orange']} | GT: {'found': True, 'colours': ['white']} | Time: 24.55s
+[img2.jpg] -> {'answer': ' Yes, there are balloons in the image. They are red in color.', 'found': True, 'colours': ['red']} | GT: {'found': True, 'colours': ['red']} | Time: 23.89s
+[img4.jpg] -> {'answer': ' Yes, there are green balloons in the image.', 'found': True, 'colours': ['green']} | GT: {'found': True, 'colours': ['green']} | Time: 15.22s
+[img6.png] -> {'answer': ' Yes, there are white balloons in the image.', 'found': True, 'colours': ['white']} | GT: {'found': True, 'colours': ['white']} | Time: 30.03s
+[IMG20250612151131.jpg] -> {'answer': ' No, there are no balloons in the image. The image only shows a curtain and a window.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 26.74s
+[IMG20250612151157.jpg] -> {'answer': ' Yes, there are blue balloons in the image.', 'found': True, 'colours': ['blue']} | GT: {'found': False, 'colours': ['blue']} | Time: 31.67s
+[IMG20250612151150.jpg] -> {'answer': ' Yes, there are blue balloons in the image.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 29.17s
+[IMG20250612151202.jpg] -> {'answer': ' Yes, there are blue balloons in the image.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 29.25s
+[IMG20250612151208.jpg] -> {'answer': ' Yes, there are blue balloons in the image.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 29.17s
+[IMG20250612151224.jpg] -> {'answer': ' Yes, there are two blue balloons in the image.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 29.53s
+[IMG20250612151229.jpg] -> {'answer': ' Yes, there are blue balloons in the image.', 'found': True, 'colours': ['blue']} | GT: {'found': False, 'colours': []} | Time: 30.85s
+[IMG20250612151233.jpg] -> {'answer': ' Yes, there are blue balloons in the image.', 'found': True, 'colours': ['blue']} | GT: {'found': False, 'colours': []} | Time: 29.78s
+[IMG20250612151238.jpg] -> {'answer': ' Yes, there are blue balloons in the image.', 'found': True, 'colours': ['blue']} | GT: {'found': False, 'colours': []} | Time: 33.04s
+[IMG20250612151242.jpg] -> {'answer': ' No, there are no balloons in the image.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 33.90s
+[IMG20250612151251.jpg] -> {'answer': ' Yes, there are white balloons in the image.', 'found': True, 'colours': ['white']} | GT: {'found': False, 'colours': []} | Time: 33.16s
+
+Resumen para prompt 'two-step-1':
+Latencia media: 28.57 s
+Precisión detección: 72.22%
+Precisión colores: 55.56%
+
+-- Prompt: two-step-2 --
+
+[img5.jpg] -> {'answer': ' Yes, there are balloons in the image. They are various colors, including red, blue, yellow, and orange.', 'found': True, 'colours': ['red', 'yellow', 'orange', 'blue']} | GT: {'found': True, 'colours': ['red', 'blue', 'orange', 'yellow', 'pink']} | Time: 35.83s
+[not-img2.jpg] -> {'answer': ' No, there are no balloons in the image.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 24.27s
+[img3.png] -> {'answer': ' Yes, there is a red balloon in the image.', 'found': True, 'colours': ['red']} | GT: {'found': True, 'colours': ['red']} | Time: 22.95s
+[img1.png] -> {'answer': ' Yes, there are balloons in the image. They are white and orange.', 'found': True, 'colours': ['white', 'orange']} | GT: {'found': True, 'colours': ['white']} | Time: 23.79s
+[img2.jpg] -> {'answer': ' Yes, there is a red balloon in the image.', 'found': True, 'colours': ['red']} | GT: {'found': True, 'colours': ['red']} | Time: 23.06s
+[img4.jpg] -> {'answer': ' Yes, there is a green balloon in the image.', 'found': True, 'colours': ['green']} | GT: {'found': True, 'colours': ['green']} | Time: 15.94s
+[img6.png] -> {'answer': ' No, there are no balloons in the image.', 'found': False, 'colours': []} | GT: {'found': True, 'colours': ['white']} | Time: 30.89s
+[IMG20250612151131.jpg] -> {'answer': ' No, there are no balloons in the image.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 23.96s
+[IMG20250612151157.jpg] -> {'answer': ' Yes, there is a blue balloon in the image.', 'found': True, 'colours': ['blue']} | GT: {'found': False, 'colours': ['blue']} | Time: 31.70s
+[IMG20250612151150.jpg] -> {'answer': ' Yes, there is a blue balloon in the image.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 31.03s
+[IMG20250612151202.jpg] -> {'answer': ' Yes, there is a blue balloon in the image.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 30.47s
+[IMG20250612151208.jpg] -> {'answer': ' Yes, there is a blue balloon in the image.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 32.74s
+[IMG20250612151224.jpg] -> {'answer': ' Yes, there are two balloons in the image. One is blue, and the other is red.', 'found': True, 'colours': ['red', 'blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 32.99s
+[IMG20250612151229.jpg] -> {'answer': ' No, there are no balloons in the image.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 30.31s
+[IMG20250612151233.jpg] -> {'answer': ' Yes, there are two balloons in the image. One balloon is blue, and the other one is red.', 'found': True, 'colours': ['red', 'blue']} | GT: {'found': False, 'colours': []} | Time: 33.17s
+[IMG20250612151238.jpg] -> {'answer': ' No, there are no balloons in the image.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 30.16s
+[IMG20250612151242.jpg] -> {'answer': ' No, there are no balloons in the image.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 30.42s
+[IMG20250612151251.jpg] -> {'answer': ' No, there are no balloons in the image.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 30.87s
+
+Resumen para prompt 'two-step-2':
+Latencia media: 28.59 s
+Precisión detección: 83.33%
+Precisión colores: 50.00%
+
+-- Prompt: two-step-3 --
+
+[img5.jpg] -> {'answer': ' Yes, there is a balloon in the image. The balloon is blue.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['red', 'blue', 'orange', 'yellow', 'pink']} | Time: 32.95s
+[not-img2.jpg] -> {'answer': ' No, there is no balloon in the image.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 23.81s
+[img3.png] -> {'answer': ' Yes, there is a red balloon in the image.', 'found': True, 'colours': ['red']} | GT: {'found': True, 'colours': ['red']} | Time: 24.39s
+[img1.png] -> {'answer': ' Yes, there is a balloon in the image. The balloon is white and orange.', 'found': True, 'colours': ['white', 'orange']} | GT: {'found': True, 'colours': ['white']} | Time: 26.99s
+[img2.jpg] -> {'answer': ' Yes, there is a red balloon in the image.', 'found': True, 'colours': ['red']} | GT: {'found': True, 'colours': ['red']} | Time: 24.92s
+[img4.jpg] -> {'answer': ' Yes, there is a green balloon in the image.', 'found': True, 'colours': ['green']} | GT: {'found': True, 'colours': ['green']} | Time: 17.16s
+[img6.png] -> {'answer': ' No, there is no balloon in the image. The image features a white sphere, a potted plant, and a grassy area.', 'found': False, 'colours': []} | GT: {'found': True, 'colours': ['white']} | Time: 36.46s
+[IMG20250612151131.jpg] -> {'answer': ' No, there is no balloon in the image. The image only shows a curtain and a window.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 25.16s
+[IMG20250612151157.jpg] -> {'answer': ' Yes, there is a blue balloon in the image.', 'found': True, 'colours': ['blue']} | GT: {'found': False, 'colours': ['blue']} | Time: 32.59s
+[IMG20250612151150.jpg] -> {'answer': ' Yes, there is a blue balloon in the image.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 31.15s
+[IMG20250612151202.jpg] -> {'answer': ' Yes, there is a blue balloon in the image.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 30.19s
+[IMG20250612151208.jpg] -> {'answer': ' Yes, there is a blue balloon in the image.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 29.38s
+[IMG20250612151224.jpg] -> {'answer': ' Yes, there is a blue balloon in the image.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 29.96s
+[IMG20250612151229.jpg] -> {'answer': ' No, there is no balloon in the image. The image shows a counter with a blue bottle, a plastic bottle, and a soda bottle.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 34.77s
+[IMG20250612151233.jpg] -> {'answer': ' Yes, there is a blue balloon in the image.', 'found': True, 'colours': ['blue']} | GT: {'found': False, 'colours': []} | Time: 34.14s
+[IMG20250612151238.jpg] -> {'answer': ' No, there is no balloon in the image. The image shows a floor with a marble-like pattern and a white column.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 36.95s
+[IMG20250612151242.jpg] -> {'answer': ' No, there is no balloon in the image. The image shows a table with a blanket on it, and the floor is made of terrazzo.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 35.76s
+[IMG20250612151251.jpg] -> {'answer': ' No, there is no balloon in the image. The image only shows a floor with a pattern of small, colorful stones.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 36.34s
+
+Resumen para prompt 'two-step-3':
+Latencia media: 30.17 s
+Precisión detección: 83.33%
+Precisión colores: 50.00%
+
+-- Prompt: two-step-4 --
+
+[img5.jpg] -> {'answer': ' Yes, there is a balloon shown. The colors of the balloons are red, orange, and blue.', 'found': True, 'colours': ['red', 'blue', 'orange']} | GT: {'found': True, 'colours': ['red', 'blue', 'orange', 'yellow', 'pink']} | Time: 35.81s
+[not-img2.jpg] -> {'answer': ' No, there is no balloon shown in the image.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 23.30s
+[img3.png] -> {'answer': ' Yes, there is a red balloon shown in the image.', 'found': True, 'colours': ['red']} | GT: {'found': True, 'colours': ['red']} | Time: 24.26s
+[img1.png] -> {'answer': ' Yes, there is a white balloon shown in the image.', 'found': True, 'colours': ['white']} | GT: {'found': True, 'colours': ['white']} | Time: 25.80s
+[img2.jpg] -> {'answer': ' Yes, there is a red balloon shown in the image.', 'found': True, 'colours': ['red']} | GT: {'found': True, 'colours': ['red']} | Time: 25.08s
+[img4.jpg] -> {'answer': ' Yes, there is a green balloon shown in the image.', 'found': True, 'colours': ['green']} | GT: {'found': True, 'colours': ['green']} | Time: 16.48s
+[img6.png] -> {'answer': ' No, there is no balloon shown in the image.', 'found': False, 'colours': []} | GT: {'found': True, 'colours': ['white']} | Time: 31.61s
+[IMG20250612151131.jpg] -> {'answer': ' No, there is no balloon shown in the image.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 24.18s
+[IMG20250612151157.jpg] -> {'answer': ' Yes, there is a blue balloon shown in the image.', 'found': True, 'colours': ['blue']} | GT: {'found': False, 'colours': ['blue']} | Time: 31.22s
+[IMG20250612151150.jpg] -> {'answer': ' Yes, there is a blue balloon shown in the image.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 29.62s
+[IMG20250612151202.jpg] -> {'answer': ' Yes, there is a blue balloon shown in the image.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 29.49s
+[IMG20250612151208.jpg] -> {'answer': ' Yes, there is a blue balloon shown in the image.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 30.45s
+[IMG20250612151224.jpg] -> {'answer': ' Yes, there is a blue balloon shown in the image.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 30.44s
+[IMG20250612151229.jpg] -> {'answer': ' No, there is no balloon shown in the image.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 30.39s
+[IMG20250612151233.jpg] -> {'answer': ' Yes, there is a blue balloon in the image.', 'found': True, 'colours': ['blue']} | GT: {'found': False, 'colours': []} | Time: 30.69s
+[IMG20250612151238.jpg] -> {'answer': ' No, there is no balloon shown in the image.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 32.20s
+[IMG20250612151242.jpg] -> {'answer': ' No, there is no balloon shown in the image.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 32.03s
+[IMG20250612151251.jpg] -> {'answer': ' No, there is no balloon shown in the image.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 32.43s
+
+Resumen para prompt 'two-step-4':
+Latencia media: 28.64 s
+Precisión detección: 83.33%
+Precisión colores: 50.00%

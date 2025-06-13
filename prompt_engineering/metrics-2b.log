@@ -1,0 +1,37 @@
+
+
+=== Modelo: 2B-int8 ===
+Modelo cargado en 31.33s
+
+-- Prompt: basic --
+
+[img5.jpg] -> {'answer': ' Yes, there is a balloon in this image.', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['red', 'blue', 'orange', 'yellow', 'pink']} | Time: 30.70s
+[not-img2.jpg] -> {'answer': ' No, there is no balloon in this image. The image shows a roundabout with vehicles driving through it.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 25.23s
+[img3.png] -> {'answer': ' Yes, there is a red balloon in the image.', 'found': True, 'colours': ['red']} | GT: {'found': True, 'colours': ['red']} | Time: 21.87s
+
+Resumen para prompt 'basic':
+Latencia media: 25.93 s
+Precisión detección: 100.00%
+Precisión colores: 33.33%
+
+-- Prompt: list-colors --
+
+[img5.jpg] -> {'answer': ' Red, orange, yellow, blue, and pink', 'found': True, 'colours': ['yellow', 'red', 'pink', 'blue', 'orange']} | GT: {'found': True, 'colours': ['red', 'blue', 'orange', 'yellow', 'pink']} | Time: 29.26s
+[not-img2.jpg] -> {'answer': ' 0', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 19.91s
+[img3.png] -> {'answer': ' 1', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['red']} | Time: 20.10s
+
+Resumen para prompt 'list-colors':
+Latencia media: 23.09 s
+Precisión detección: 66.67%
+Precisión colores: 33.33%
+
+-- Prompt: two-step --
+
+[img5.jpg] -> {'answer': ' Yes, there are balloons in the image. They are various colors, including red, blue, and yellow.', 'found': True, 'colours': ['yellow', 'blue', 'red']} | GT: {'found': True, 'colours': ['red', 'blue', 'orange', 'yellow', 'pink']} | Time: 32.12s
+[not-img2.jpg] -> {'answer': ' No, there are no balloons in the image.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 22.04s
+[img3.png] -> {'answer': ' Yes, there are balloons in the image. They are red.', 'found': True, 'colours': ['red']} | GT: {'found': True, 'colours': ['red']} | Time: 23.34s
+
+Resumen para prompt 'two-step':
+Latencia media: 25.83 s
+Precisión detección: 100.00%
+Precisión colores: 66.67%

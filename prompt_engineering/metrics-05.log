@@ -1,0 +1,37 @@
+
+
+=== Modelo: 0.5B-int8 ===
+Modelo cargado en 11.55s
+
+-- Prompt: basic --
+
+[img5.jpg] -> {'answer': ' Yes, there is a balloon in this image, which is sitting on top of a red chair.', 'found': True, 'colours': ['red']} | GT: {'found': True, 'colours': ['red', 'blue', 'orange', 'yellow', 'pink']} | Time: 15.65s
+[not-img2.jpg] -> {'answer': ' Yes, there is a balloon in the image, floating above the road and around the circular driveway.', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 10.64s
+[img3.png] -> {'answer': ' Yes, there is a balloon in the image, and it is red in color.', 'found': True, 'colours': ['red']} | GT: {'found': True, 'colours': ['red']} | Time: 10.56s
+
+Resumen para prompt 'basic':
+Latencia media: 12.28 s
+Precisión detección: 66.67%
+Precisión colores: 66.67%
+
+-- Prompt: list-colors --
+
+[img5.jpg] -> {'answer': ' The image features a variety of colors, including red, yellow, blue, and purple.', 'found': True, 'colours': ['red', 'purple', 'blue', 'yellow']} | GT: {'found': True, 'colours': ['red', 'blue', 'orange', 'yellow', 'pink']} | Time: 14.72s
+[not-img2.jpg] -> {'answer': ' The image shows a variety of colors, including red, yellow, green, blue, and white.', 'found': True, 'colours': ['blue', 'yellow', 'red', 'green', 'white']} | GT: {'found': False, 'colours': []} | Time: 10.65s
+[img3.png] -> {'answer': ' The image features a red balloon, a black balloon, and a red balloon.', 'found': True, 'colours': ['red', 'black']} | GT: {'found': True, 'colours': ['red']} | Time: 10.54s
+
+Resumen para prompt 'list-colors':
+Latencia media: 11.97 s
+Precisión detección: 66.67%
+Precisión colores: 66.67%
+
+-- Prompt: two-step --
+
+[img5.jpg] -> {'answer': ' Yes, there are balloons in the image. They are multicolored, with various colors including red, yellow, blue, and orange.', 'found': True, 'colours': ['red', 'blue', 'orange', 'yellow']} | GT: {'found': True, 'colours': ['red', 'blue', 'orange', 'yellow', 'pink']} | Time: 15.83s
+[not-img2.jpg] -> {'answer': ' Yes, there are balloons in the image. They are white.', 'found': True, 'colours': ['white']} | GT: {'found': False, 'colours': []} | Time: 10.98s
+[img3.png] -> {'answer': ' Yes, there are two balloons in the image. One balloon is red, and the other balloon is red.', 'found': True, 'colours': ['red']} | GT: {'found': True, 'colours': ['red']} | Time: 11.06s
+
+Resumen para prompt 'two-step':
+Latencia media: 12.62 s
+Precisión detección: 66.67%
+Precisión colores: 66.67%

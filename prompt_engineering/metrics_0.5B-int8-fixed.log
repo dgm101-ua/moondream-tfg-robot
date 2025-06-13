@@ -1,0 +1,472 @@
+
+
+=== Modelo: 0.5B-int8 ===
+Modelo cargado en 3.25s
+
+-- Prompt: basic-1 --
+
+[img5.jpg] -> {'answer': ' Yes, there is a balloon in this image, which is sitting on top of a red chair.', 'found': True, 'colours': ['red']} | GT: {'found': True, 'colours': ['red', 'blue', 'orange', 'yellow', 'pink']} | Time: 15.86s
+[not-img2.jpg] -> {'answer': ' Yes, there is a balloon in the image, floating above the road and around the circular driveway.', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 11.11s
+[img3.png] -> {'answer': ' Yes, there is a balloon in the image, and it is red in color.', 'found': True, 'colours': ['red']} | GT: {'found': True, 'colours': ['red']} | Time: 10.32s
+[img1.png] -> {'answer': ' Yes, there is a balloon in the image, and it is floating in the air.', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['white']} | Time: 10.40s
+[img2.jpg] -> {'answer': ' Yes, there is a red balloon in the image.', 'found': True, 'colours': ['red']} | GT: {'found': True, 'colours': ['red']} | Time: 9.78s
+[img4.jpg] -> {'answer': ' Yes, there is a green balloon in the image.', 'found': True, 'colours': ['green']} | GT: {'found': True, 'colours': ['green']} | Time: 6.01s
+[img6.png] -> {'answer': ' Yes, there is a balloon in the image, and it is floating in the air.', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['white']} | Time: 14.26s
+[IMG20250612151131.jpg] -> {'answer': ' Yes, there is a balloon in the image, floating in the air near the window.', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 10.40s
+[IMG20250612151157.jpg] -> {'answer': ' Yes, there is a balloon in the image, and it is floating in the air.', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['blue']} | Time: 14.06s
+[IMG20250612151150.jpg] -> {'answer': ' Yes, there is a balloon in the image, and it is sitting on the floor.', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['blue']} | Time: 14.12s
+[IMG20250612151202.jpg] -> {'answer': ' Yes, there is a balloon in the image, and it is blue in color.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 13.98s
+[IMG20250612151208.jpg] -> {'answer': ' Yes, there is a balloon in the image, and it is positioned in the foreground, with a blue balloon in the background.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 14.74s
+[IMG20250612151224.jpg] -> {'answer': ' Yes, there is a balloon in the image, which is placed in front of the water tanks.', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['blue']} | Time: 14.13s
+[IMG20250612151229.jpg] -> {'answer': ' Yes, there is a balloon in the image, and it is floating next to the water tanks.', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 14.39s
+[IMG20250612151233.jpg] -> {'answer': ' Yes, there is a balloon in the image, located near the water tanks.', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 14.00s
+[IMG20250612151238.jpg] -> {'answer': ' Yes, there is a balloon in the image, and it is floating in the bathroom.', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 14.09s
+[IMG20250612151242.jpg] -> {'answer': ' Yes, there is a balloon in the image, and it is floating in the air.', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 14.10s
+[IMG20250612151251.jpg] -> {'answer': ' Yes, there is a balloon in the image, floating in the air above the mosaic wall.', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 14.26s
+
+Resumen para prompt 'basic-1':
+Latencia media: 12.78 s
+Precisión detección: 61.11%
+Precisión colores: 33.33%
+
+-- Prompt: basic-2 --
+
+[img5.jpg] -> {'answer': ' Yes, there are balloons in the image, both in red and yellow colors, as well as some other colors.', 'found': True, 'colours': ['yellow', 'red']} | GT: {'found': True, 'colours': ['red', 'blue', 'orange', 'yellow', 'pink']} | Time: 15.80s
+[not-img2.jpg] -> {'answer': ' Yes, there are balloons visible in the picture, floating in the air above the road.', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 10.58s
+[img3.png] -> {'answer': ' Yes, there is a single red balloon in the image.', 'found': True, 'colours': ['red']} | GT: {'found': True, 'colours': ['red']} | Time: 10.85s
+[img1.png] -> {'answer': ' Yes, there is a balloon in the picture, and it is white and standing on a wooden floor.', 'found': True, 'colours': ['white']} | GT: {'found': True, 'colours': ['white']} | Time: 12.77s
+[img2.jpg] -> {'answer': ' Yes, there is a red balloon in the picture.', 'found': True, 'colours': ['red']} | GT: {'found': True, 'colours': ['red']} | Time: 11.02s
+[img4.jpg] -> {'answer': ' Yes, there is a green balloon in the image.', 'found': True, 'colours': ['green']} | GT: {'found': True, 'colours': ['green']} | Time: 6.48s
+[img6.png] -> {'answer': ' Yes, there is a balloon in the image, and it is white.', 'found': True, 'colours': ['white']} | GT: {'found': True, 'colours': ['white']} | Time: 14.95s
+[IMG20250612151131.jpg] -> {'answer': ' Yes, there are balloons visible in the picture, floating in the air near the window.', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 11.22s
+[IMG20250612151157.jpg] -> {'answer': ' Yes, there is a balloon in the image, and it is located near the floor of the room.', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['blue']} | Time: 16.03s
+[IMG20250612151150.jpg] -> {'answer': ' Yes, there is a blue balloon in the image.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 16.30s
+[IMG20250612151202.jpg] -> {'answer': ' Yes, there is a large balloon in the image, standing in the middle of the room.', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['blue']} | Time: 16.77s
+[IMG20250612151208.jpg] -> {'answer': ' Yes, there is a large blue balloon in the picture.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 17.96s
+[IMG20250612151224.jpg] -> {'answer': ' Yes, there are two balloons in the picture. One is blue, and the other is white.', 'found': True, 'colours': ['white', 'blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 17.89s
+[IMG20250612151229.jpg] -> {'answer': ' Yes, there are balloons in the picture, located near the water tanks.', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 16.47s
+[IMG20250612151233.jpg] -> {'answer': ' Yes, there are balloons visible in the picture, located near the water tanks.', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 20.10s
+[IMG20250612151238.jpg] -> {'answer': ' No, there are no balloons in the picture.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 15.35s
+[IMG20250612151242.jpg] -> {'answer': ' Yes, there are balloons in the picture, floating in the air near the chair.', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 15.07s
+[IMG20250612151251.jpg] -> {'answer': ' Yes, there are balloons in the picture, floating in the air above the mosaic.', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 15.03s
+
+Resumen para prompt 'basic-2':
+Latencia media: 14.48 s
+Precisión detección: 66.67%
+Precisión colores: 50.00%
+
+-- Prompt: basic-3 --
+
+[img5.jpg] -> {'answer': ' The image contains a large number of balloons, including a bunch of red and yellow ones.', 'found': True, 'colours': ['yellow', 'red']} | GT: {'found': True, 'colours': ['red', 'blue', 'orange', 'yellow', 'pink']} | Time: 15.49s
+[not-img2.jpg] -> {'answer': ' The image does not contain one or more balloons. It is an aerial view of a roundabout with cars driving around it.', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 12.69s
+[img3.png] -> {'answer': ' The image contains a single, red balloon.', 'found': True, 'colours': ['red']} | GT: {'found': True, 'colours': ['red']} | Time: 10.36s
+[img1.png] -> {'answer': ' The image contains a single balloon.', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['white']} | Time: 10.33s
+[img2.jpg] -> {'answer': ' The image contains a single red balloon.', 'found': True, 'colours': ['red']} | GT: {'found': True, 'colours': ['red']} | Time: 10.31s
+[img4.jpg] -> {'answer': ' The image contains a single, green balloon.', 'found': True, 'colours': ['green']} | GT: {'found': True, 'colours': ['green']} | Time: 6.33s
+[img6.png] -> {'answer': ' The image features a single white balloon, sitting on top of a pile of mulch.', 'found': True, 'colours': ['white']} | GT: {'found': True, 'colours': ['white']} | Time: 16.76s
+[IMG20250612151131.jpg] -> {'answer': ' The image does not contain one or more balloons. It is a close-up of a shower curtain with a reflection of a person taking a shower.', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 13.39s
+[IMG20250612151157.jpg] -> {'answer': ' The image features a single blue balloon.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 16.10s
+[IMG20250612151150.jpg] -> {'answer': ' The image features a single blue balloon.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 15.38s
+[IMG20250612151202.jpg] -> {'answer': ' The image features a single, large blue balloon.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 15.13s
+[IMG20250612151208.jpg] -> {'answer': ' The image features a large blue balloon, which is the main focus of the scene.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 16.58s
+[IMG20250612151224.jpg] -> {'answer': ' The image features a single balloon, which is the main focus of the scene.', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['blue']} | Time: 15.75s
+[IMG20250612151229.jpg] -> {'answer': ' The image features two large blue and white balloons, which are placed next to a water cooler.', 'found': True, 'colours': ['white', 'blue']} | GT: {'found': False, 'colours': []} | Time: 15.98s
+[IMG20250612151233.jpg] -> {'answer': ' The image features two large blue and white water bottles, which are placed next to a blue and white tarp.', 'found': True, 'colours': ['white', 'blue']} | GT: {'found': False, 'colours': []} | Time: 16.58s
+[IMG20250612151238.jpg] -> {'answer': ' The image features a group of balloons, with at least one balloon being held by someone in the room.', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 16.42s
+[IMG20250612151242.jpg] -> {'answer': ' The image features a large, white, and blue balloon that is being inflated.', 'found': True, 'colours': ['white', 'blue']} | GT: {'found': False, 'colours': []} | Time: 20.57s
+[IMG20250612151251.jpg] -> {'answer': ' The image features a group of colorful balloons, which are arranged in a circular pattern.', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 20.25s
+
+Resumen para prompt 'basic-3':
+Latencia media: 14.69 s
+Precisión detección: 61.11%
+Precisión colores: 44.44%
+
+-- Prompt: basic-4 --
+
+[img5.jpg] -> {'answer': ' Yes', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['red', 'blue', 'orange', 'yellow', 'pink']} | Time: 20.16s
+[not-img2.jpg] -> {'answer': ' No', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 11.95s
+[img3.png] -> {'answer': ' The balloon in the image is red.', 'found': True, 'colours': ['red']} | GT: {'found': True, 'colours': ['red']} | Time: 12.17s
+[img1.png] -> {'answer': ' Yes', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['white']} | Time: 10.33s
+[img2.jpg] -> {'answer': ' No', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['red']} | Time: 11.22s
+[img4.jpg] -> {'answer': ' The image shows a green balloon, not a typical "balloon" as balloons are typically used for play and recreation.', 'found': True, 'colours': ['green']} | GT: {'found': True, 'colours': ['green']} | Time: 8.88s
+[img6.png] -> {'answer': ' No', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['white']} | Time: 17.27s
+[IMG20250612151131.jpg] -> {'answer': ' No', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 11.27s
+[IMG20250612151157.jpg] -> {'answer': ' No', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['blue']} | Time: 15.46s
+[IMG20250612151150.jpg] -> {'answer': ' Yes', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['blue']} | Time: 15.82s
+[IMG20250612151202.jpg] -> {'answer': ' No', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['blue']} | Time: 14.59s
+[IMG20250612151208.jpg] -> {'answer': ' No', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['blue']} | Time: 14.55s
+[IMG20250612151224.jpg] -> {'answer': ' No', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['blue']} | Time: 14.59s
+[IMG20250612151229.jpg] -> {'answer': ' No', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 14.34s
+[IMG20250612151233.jpg] -> {'answer': ' No', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 14.30s
+[IMG20250612151238.jpg] -> {'answer': ' No', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 14.34s
+[IMG20250612151242.jpg] -> {'answer': ' No', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 14.33s
+[IMG20250612151251.jpg] -> {'answer': ' No', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 14.18s
+
+Resumen para prompt 'basic-4':
+Latencia media: 13.88 s
+Precisión detección: 61.11%
+Precisión colores: 11.11%
+
+-- Prompt: basic-5 --
+
+[img5.jpg] -> {'answer': ' Yes, there are a number of balloons in the image, all of which are in various colors.', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['red', 'blue', 'orange', 'yellow', 'pink']} | Time: 16.48s
+[not-img2.jpg] -> {'answer': ' There are no balloons visible in the image.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 10.78s
+[img3.png] -> {'answer': ' Yes, there is a single red balloon in the image.', 'found': True, 'colours': ['red']} | GT: {'found': True, 'colours': ['red']} | Time: 11.11s
+[img1.png] -> {'answer': ' Yes, there is a single balloon in the image.', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['white']} | Time: 11.00s
+[img2.jpg] -> {'answer': ' Yes, there is a red balloon in the image.', 'found': True, 'colours': ['red']} | GT: {'found': True, 'colours': ['red']} | Time: 11.06s
+[img4.jpg] -> {'answer': ' Yes, there is a green balloon in the image.', 'found': True, 'colours': ['green']} | GT: {'found': True, 'colours': ['green']} | Time: 6.81s
+[img6.png] -> {'answer': ' No, there are no balloons in the image.', 'found': False, 'colours': []} | GT: {'found': True, 'colours': ['white']} | Time: 15.43s
+[IMG20250612151131.jpg] -> {'answer': ' There are no balloons visible in the image.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 10.76s
+[IMG20250612151157.jpg] -> {'answer': ' Yes, there is a blue balloon in the image.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 15.24s
+[IMG20250612151150.jpg] -> {'answer': ' Yes, there is a single blue balloon in the image.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 15.29s
+[IMG20250612151202.jpg] -> {'answer': ' There is only one balloon in the image.', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['blue']} | Time: 15.30s
+[IMG20250612151208.jpg] -> {'answer': ' There is only one balloon in the image.', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['blue']} | Time: 14.95s
+[IMG20250612151224.jpg] -> {'answer': ' There is no balloon in the image.', 'found': False, 'colours': []} | GT: {'found': True, 'colours': ['blue']} | Time: 14.84s
+[IMG20250612151229.jpg] -> {'answer': ' There are no balloons in the image.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 14.88s
+[IMG20250612151233.jpg] -> {'answer': ' There are no balloons in the image.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 15.49s
+[IMG20250612151238.jpg] -> {'answer': ' There are no balloons in the image.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 15.16s
+[IMG20250612151242.jpg] -> {'answer': ' There are no balloons in the image.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 14.97s
+[IMG20250612151251.jpg] -> {'answer': ' There are no balloons in the image.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 15.01s
+
+Resumen para prompt 'basic-5':
+Latencia media: 13.59 s
+Precisión detección: 88.89%
+Precisión colores: 22.22%
+
+-- Prompt: basic-6 --
+
+[img5.jpg] -> {'answer': ' Yes, the balloons in the image appear to be colorful and come in various sizes and colors.', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['red', 'blue', 'orange', 'yellow', 'pink']} | Time: 16.67s
+[not-img2.jpg] -> {'answer': ' Yes, there are balloons in the image, floating in the air above the road.', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 12.17s
+[img3.png] -> {'answer': ' Yes, the balloons in the image appear to be large and red, which suggests that they are designed for use in an event or activity.', 'found': True, 'colours': ['red']} | GT: {'found': True, 'colours': ['red']} | Time: 13.30s
+[img1.png] -> {'answer': ' Yes, the balloons in the image appear to be white.', 'found': True, 'colours': ['white']} | GT: {'found': True, 'colours': ['white']} | Time: 11.47s
+[img2.jpg] -> {'answer': ' Yes, the balloons in the image appear to be red.', 'found': True, 'colours': ['red']} | GT: {'found': True, 'colours': ['red']} | Time: 11.72s
+[img4.jpg] -> {'answer': ' Yes, the balloons in the image appear to be green.', 'found': True, 'colours': ['green']} | GT: {'found': True, 'colours': ['green']} | Time: 6.84s
+[img6.png] -> {'answer': ' Yes, the balloon in the image appears to be a giant balloon.', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['white']} | Time: 15.79s
+[IMG20250612151131.jpg] -> {'answer': ' Yes, the balloons appear to be floating in the air.', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 11.52s
+[IMG20250612151157.jpg] -> {'answer': ' Yes, the balloons in the image appear to be large and colorful.', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['blue']} | Time: 16.07s
+[IMG20250612151150.jpg] -> {'answer': ' Yes, the balloons in the image appear to be large, blue, and round.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 16.87s
+[IMG20250612151202.jpg] -> {'answer': ' Yes, the image shows a large blue balloon in an open space.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 16.83s
+[IMG20250612151208.jpg] -> {'answer': ' Yes, the balloons in the image appear to be large and blue, which suggests that they are designed for use in an event or activity.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 17.26s
+[IMG20250612151224.jpg] -> {'answer': ' Yes, the balloons in the image are large and blue, adding a festive touch to the scene.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 16.77s
+[IMG20250612151229.jpg] -> {'answer': ' Yes, there are balloons in the image, which are placed in front of the water tanks.', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 15.22s
+[IMG20250612151233.jpg] -> {'answer': ' Yes, there are balloons in the image, which are placed near the water tanks.', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 15.10s
+[IMG20250612151238.jpg] -> {'answer': ' No, there are no balloons in the image.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 14.30s
+[IMG20250612151242.jpg] -> {'answer': ' Yes, there are balloons in the image, which are floating in the air.', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 15.01s
+[IMG20250612151251.jpg] -> {'answer': ' Yes, there are balloons in the image, which are floating in the air.', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 14.95s
+
+Resumen para prompt 'basic-6':
+Latencia media: 14.33 s
+Precisión detección: 66.67%
+Precisión colores: 44.44%
+
+-- Prompt: basic-7 --
+
+[img5.jpg] -> {'answer': ' The presence of balloons in the image adds a sense of celebration and joy to the scene.', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['red', 'blue', 'orange', 'yellow', 'pink']} | Time: 15.15s
+[not-img2.jpg] -> {'answer': ' No balloons are visible in the image.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 10.18s
+[img3.png] -> {'answer': ' The presence of balloons in the image is due to the dark and empty setting.', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['red']} | Time: 11.05s
+[img1.png] -> {'answer': ' The presence of balloons in the image adds a sense of celebration and joy to the scene.', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['white']} | Time: 11.23s
+[img2.jpg] -> {'answer': ' Yes, the presence of balloons in the image adds a sense of joy and celebration to the scene.', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['red']} | Time: 11.28s
+[img4.jpg] -> {'answer': ' The presence of balloons in the image adds a sense of excitement and celebration to the scene.', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['green']} | Time: 7.06s
+[img6.png] -> {'answer': ' The presence of balloons in the image suggests that the garden or space is designed to be a place for relaxation and enjoyment.', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['white']} | Time: 15.86s
+[IMG20250612151131.jpg] -> {'answer': ' Yes, there are balloons present in the image. They are floating in the air, adding a sense of celebration and joy to the scene.', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 12.38s
+[IMG20250612151157.jpg] -> {'answer': ' The presence of balloons in the image suggests that the location might be a public space or an event venue.', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['blue']} | Time: 15.95s
+[IMG20250612151150.jpg] -> {'answer': ' The presence of the blue balloon in the image suggests that it might be a balloon-related event or celebration.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 15.16s
+[IMG20250612151202.jpg] -> {'answer': ' The presence of balloons in the image suggests that the location might be a venue for a celebration or an event, possibly related to the theme of the balloon-themed party.', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['blue']} | Time: 16.18s
+[IMG20250612151208.jpg] -> {'answer': ' The presence of balloons in the image suggests that the location might be a place where people gather to celebrate or socialize, such as a party, a special event, or a gathering for friends and family.', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['blue']} | Time: 16.86s
+[IMG20250612151224.jpg] -> {'answer': ' The presence of balloons in the image is a detail that adds to the overall ambiance and atmosphere of the room.', 'found': True, 'colours': []} | GT: {'found': True, 'colours': ['blue']} | Time: 14.97s
+[IMG20250612151229.jpg] -> {'answer': ' The presence of balloons in the image suggests that the location might be a venue for a party or celebration, possibly in a hotel or a similar establishment.', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 15.73s
+[IMG20250612151233.jpg] -> {'answer': ' The presence of balloons in the image suggests that the location might be a public space or a gathering area.', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 14.81s
+[IMG20250612151238.jpg] -> {'answer': ' The presence of balloons in the image suggests that the location might be a public space or a venue for a celebration, such as a party or a special event.', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 15.91s
+[IMG20250612151242.jpg] -> {'answer': ' The presence of balloons in the image suggests that the room might be used for a celebration or event.', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 14.67s
+[IMG20250612151251.jpg] -> {'answer': ' The image does not show any balloons.', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 13.44s
+
+Resumen para prompt 'basic-7':
+Latencia media: 13.77 s
+Precisión detección: 66.67%
+Precisión colores: 5.56%
+
+-- Prompt: list-colors-1 --
+
+[img5.jpg] -> {'answer': ' The image features a variety of colors, including red, yellow, blue, and purple.', 'found': True, 'colours': ['yellow', 'purple', 'blue', 'red']} | GT: {'found': True, 'colours': ['red', 'blue', 'orange', 'yellow', 'pink']} | Time: 14.75s
+[not-img2.jpg] -> {'answer': ' The image shows a variety of colors, including red, yellow, green, blue, and white.', 'found': True, 'colours': ['green', 'blue', 'white', 'yellow', 'red']} | GT: {'found': False, 'colours': []} | Time: 10.96s
+[img3.png] -> {'answer': ' The image features a red balloon, a black balloon, and a red balloon.', 'found': True, 'colours': ['black', 'red']} | GT: {'found': True, 'colours': ['red']} | Time: 10.54s
+[img1.png] -> {'answer': ' The balloon in the image is white.', 'found': True, 'colours': ['white']} | GT: {'found': True, 'colours': ['white']} | Time: 9.76s
+[img2.jpg] -> {'answer': ' Red, yellow, pink, blue, and white', 'found': True, 'colours': ['blue', 'white', 'pink', 'yellow', 'red']} | GT: {'found': True, 'colours': ['red']} | Time: 9.80s
+[img4.jpg] -> {'answer': ' The image shows a green balloon, a yellow balloon, and a red balloon.', 'found': True, 'colours': ['yellow', 'green', 'red']} | GT: {'found': True, 'colours': ['green']} | Time: 6.62s
+[img6.png] -> {'answer': ' The image features a white balloon, a white balloon with a black tip, and a white balloon with a black tip.', 'found': True, 'colours': ['white', 'black']} | GT: {'found': True, 'colours': ['white']} | Time: 15.32s
+[IMG20250612151131.jpg] -> {'answer': ' The image shows a white balloon with a red tip.', 'found': True, 'colours': ['white', 'red']} | GT: {'found': False, 'colours': []} | Time: 10.17s
+[IMG20250612151157.jpg] -> {'answer': ' The image shows a blue balloon and a white balloon.', 'found': True, 'colours': ['white', 'blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 14.19s
+[IMG20250612151150.jpg] -> {'answer': ' The image features a blue balloon, a blue balloon with a white spot, and a blue balloon with a white spot.', 'found': True, 'colours': ['white', 'blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 15.14s
+[IMG20250612151202.jpg] -> {'answer': ' Blue, white, and black', 'found': True, 'colours': ['white', 'blue', 'black']} | GT: {'found': True, 'colours': ['blue']} | Time: 13.35s
+[IMG20250612151208.jpg] -> {'answer': ' The image features a large blue balloon and a smaller blue balloon, both sitting on a stand.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 15.13s
+[IMG20250612151224.jpg] -> {'answer': ' The image shows a large blue balloon, a smaller blue balloon, and a smaller blue balloon.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 15.35s
+[IMG20250612151229.jpg] -> {'answer': ' The image shows a large blue balloon, a large blue water balloon, and a large blue plastic water balloon.', 'found': True, 'colours': ['blue']} | GT: {'found': False, 'colours': []} | Time: 15.21s
+[IMG20250612151233.jpg] -> {'answer': ' The image shows a large blue balloon, a large white balloon, and a large blue balloon.', 'found': True, 'colours': ['white', 'blue']} | GT: {'found': False, 'colours': []} | Time: 14.95s
+[IMG20250612151238.jpg] -> {'answer': ' The image features a blue balloon and a white balloon, placed next to each other.', 'found': True, 'colours': ['white', 'blue']} | GT: {'found': False, 'colours': []} | Time: 14.79s
+[IMG20250612151242.jpg] -> {'answer': ' The image shows a white balloon, a white balloon, and a white balloon.', 'found': True, 'colours': ['white']} | GT: {'found': False, 'colours': []} | Time: 14.61s
+[IMG20250612151251.jpg] -> {'answer': ' The image features a mosaic of various colors, including white, blue, green, and red.', 'found': True, 'colours': ['white', 'blue', 'red', 'green']} | GT: {'found': False, 'colours': []} | Time: 14.95s
+
+Resumen para prompt 'list-colors-1':
+Latencia media: 13.09 s
+Precisión detección: 61.11%
+Precisión colores: 55.56%
+
+-- Prompt: list-colors-2 --
+
+[img5.jpg] -> {'answer': ' The colors of the balloons in the image are red, yellow, and blue.', 'found': True, 'colours': ['yellow', 'blue', 'red']} | GT: {'found': True, 'colours': ['red', 'blue', 'orange', 'yellow', 'pink']} | Time: 15.26s
+[not-img2.jpg] -> {'answer': ' The balloons in the image are red and white.', 'found': True, 'colours': ['white', 'red']} | GT: {'found': False, 'colours': []} | Time: 9.98s
+[img3.png] -> {'answer': ' The colors of the balloons in the image are red and black.', 'found': True, 'colours': ['black', 'red']} | GT: {'found': True, 'colours': ['red']} | Time: 10.31s
+[img1.png] -> {'answer': ' The colors of the balloons in the image are white and blue.', 'found': True, 'colours': ['white', 'blue']} | GT: {'found': True, 'colours': ['white']} | Time: 10.79s
+[img2.jpg] -> {'answer': ' The balloons in the image are red and white.', 'found': True, 'colours': ['white', 'red']} | GT: {'found': True, 'colours': ['red']} | Time: 9.90s
+[img4.jpg] -> {'answer': ' The colors of the balloons in the image are green and white.', 'found': True, 'colours': ['white', 'green']} | GT: {'found': True, 'colours': ['green']} | Time: 6.33s
+[img6.png] -> {'answer': ' The colors of the balloons in the image are white and black.', 'found': True, 'colours': ['white', 'black']} | GT: {'found': True, 'colours': ['white']} | Time: 14.29s
+[IMG20250612151131.jpg] -> {'answer': ' The colors of the balloons in the image are white and blue.', 'found': True, 'colours': ['white', 'blue']} | GT: {'found': False, 'colours': []} | Time: 10.27s
+[IMG20250612151157.jpg] -> {'answer': ' The colors of the balloons in the image are blue and white.', 'found': True, 'colours': ['white', 'blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 13.96s
+[IMG20250612151150.jpg] -> {'answer': ' The colors of the balloons in the image are blue and white.', 'found': True, 'colours': ['white', 'blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 14.02s
+[IMG20250612151202.jpg] -> {'answer': ' The colors of the balloons in the image are blue and white.', 'found': True, 'colours': ['white', 'blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 13.96s
+[IMG20250612151208.jpg] -> {'answer': ' The colors of the balloons in the image are blue and white.', 'found': True, 'colours': ['white', 'blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 13.95s
+[IMG20250612151224.jpg] -> {'answer': ' The colors of the balloons in the image are blue and white.', 'found': True, 'colours': ['white', 'blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 14.00s
+[IMG20250612151229.jpg] -> {'answer': ' The colors of the balloons in the image are blue and white.', 'found': True, 'colours': ['white', 'blue']} | GT: {'found': False, 'colours': []} | Time: 14.45s
+[IMG20250612151233.jpg] -> {'answer': ' The colors of the balloons in the image are blue and white.', 'found': True, 'colours': ['white', 'blue']} | GT: {'found': False, 'colours': []} | Time: 14.02s
+[IMG20250612151238.jpg] -> {'answer': ' The colors of the balloons in the image are white and blue.', 'found': True, 'colours': ['white', 'blue']} | GT: {'found': False, 'colours': []} | Time: 14.04s
+[IMG20250612151242.jpg] -> {'answer': ' The colors of the balloons in the image are white and blue.', 'found': True, 'colours': ['white', 'blue']} | GT: {'found': False, 'colours': []} | Time: 13.94s
+[IMG20250612151251.jpg] -> {'answer': ' The colors of the balloons in the image are white and blue.', 'found': True, 'colours': ['white', 'blue']} | GT: {'found': False, 'colours': []} | Time: 13.90s
+
+Resumen para prompt 'list-colors-2':
+Latencia media: 12.63 s
+Precisión detección: 61.11%
+Precisión colores: 55.56%
+
+-- Prompt: list-colors-3 --
+
+[img5.jpg] -> {'answer': ' The balloons in the image come in various colors, including red, yellow, blue, and orange.', 'found': True, 'colours': ['orange', 'yellow', 'blue', 'red']} | GT: {'found': True, 'colours': ['red', 'blue', 'orange', 'yellow', 'pink']} | Time: 14.91s
+[not-img2.jpg] -> {'answer': ' There are no balloons in the image.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 9.71s
+[img3.png] -> {'answer': ' There are two different colors of balloons in the image. One balloon is red, and the other balloon is red, white, and blue.', 'found': True, 'colours': ['white', 'blue', 'red']} | GT: {'found': True, 'colours': ['red']} | Time: 11.73s
+[img1.png] -> {'answer': ' There are two different colors of balloons in the image: one white and one orange.', 'found': True, 'colours': ['white', 'orange']} | GT: {'found': True, 'colours': ['white']} | Time: 10.78s
+[img2.jpg] -> {'answer': ' There are two different colors of balloons in the image. One balloon is red, and the other balloon is white.', 'found': True, 'colours': ['white', 'red']} | GT: {'found': True, 'colours': ['red']} | Time: 11.18s
+[img4.jpg] -> {'answer': ' There are two different colors of balloons in the image. One balloon is green, and the other balloon is red.', 'found': True, 'colours': ['green', 'red']} | GT: {'found': True, 'colours': ['green']} | Time: 7.27s
+[img6.png] -> {'answer': ' There are two different colors of balloons in the image. One balloon is white, and the other balloon is green.', 'found': True, 'colours': ['white', 'green']} | GT: {'found': True, 'colours': ['white']} | Time: 15.15s
+[IMG20250612151131.jpg] -> {'answer': ' There are no balloons visible in the image.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 9.95s
+[IMG20250612151157.jpg] -> {'answer': ' There are two different balloons in the image. One is blue, and the other is white.', 'found': True, 'colours': ['white', 'blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 14.65s
+[IMG20250612151150.jpg] -> {'answer': ' There are two different colors of balloons in the image. One balloon is blue, and the other balloon is white.', 'found': True, 'colours': ['white', 'blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 15.05s
+[IMG20250612151202.jpg] -> {'answer': ' There are two different colors of balloons in the image. One balloon is blue, and the other balloon is white.', 'found': True, 'colours': ['white', 'blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 14.93s
+[IMG20250612151208.jpg] -> {'answer': ' There are two balloons in the image: one large blue balloon and one smaller, possibly a balloon, in the background.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 15.12s
+[IMG20250612151224.jpg] -> {'answer': ' There are two balloons in the image: one blue balloon and one blue balloon.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 14.31s
+[IMG20250612151229.jpg] -> {'answer': ' There are no balloons in the image.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 14.15s
+[IMG20250612151233.jpg] -> {'answer': ' There are no balloons in the image.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 13.82s
+[IMG20250612151238.jpg] -> {'answer': ' There are no balloons in the image.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 13.94s
+[IMG20250612151242.jpg] -> {'answer': ' There are no balloons in the image.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 14.41s
+[IMG20250612151251.jpg] -> {'answer': ' There are no balloons in the image.', 'found': False, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 15.21s
+
+Resumen para prompt 'list-colors-3':
+Latencia media: 13.13 s
+Precisión detección: 100.00%
+Precisión colores: 55.56%
+
+-- Prompt: list-colors-4 --
+
+[img5.jpg] -> {'answer': ' The colour of the balloons is a mix of different colors, including yellow, orange, blue, red, and purple.', 'found': True, 'colours': ['orange', 'blue', 'yellow', 'purple', 'red']} | GT: {'found': True, 'colours': ['red', 'blue', 'orange', 'yellow', 'pink']} | Time: 15.60s
+[not-img2.jpg] -> {'answer': ' The balloon in the image is red.', 'found': True, 'colours': ['red']} | GT: {'found': False, 'colours': []} | Time: 10.17s
+[img3.png] -> {'answer': ' The balloon in the image is red.', 'found': True, 'colours': ['red']} | GT: {'found': True, 'colours': ['red']} | Time: 10.48s
+[img1.png] -> {'answer': ' The balloon in the image is white.', 'found': True, 'colours': ['white']} | GT: {'found': True, 'colours': ['white']} | Time: 10.04s
+[img2.jpg] -> {'answer': ' The balloon in the image is red.', 'found': True, 'colours': ['red']} | GT: {'found': True, 'colours': ['red']} | Time: 10.06s
+[img4.jpg] -> {'answer': ' The balloon in the image is green.', 'found': True, 'colours': ['green']} | GT: {'found': True, 'colours': ['green']} | Time: 6.07s
+[img6.png] -> {'answer': ' The balloon in the image is white.', 'found': True, 'colours': ['white']} | GT: {'found': True, 'colours': ['white']} | Time: 13.97s
+[IMG20250612151131.jpg] -> {'answer': ' The balloon in the image is white.', 'found': True, 'colours': ['white']} | GT: {'found': False, 'colours': []} | Time: 10.02s
+[IMG20250612151157.jpg] -> {'answer': ' The balloon in the image is blue.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 13.84s
+[IMG20250612151150.jpg] -> {'answer': ' The balloon in the image is blue.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 13.90s
+[IMG20250612151202.jpg] -> {'answer': ' The balloon in the image is blue.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 13.89s
+[IMG20250612151208.jpg] -> {'answer': ' The balloon in the image is blue.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 14.32s
+[IMG20250612151224.jpg] -> {'answer': ' The balloon in the image is blue.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 13.95s
+[IMG20250612151229.jpg] -> {'answer': ' The balloon in the image is blue and white.', 'found': True, 'colours': ['white', 'blue']} | GT: {'found': False, 'colours': []} | Time: 14.17s
+[IMG20250612151233.jpg] -> {'answer': ' The balloon in the image is blue and white.', 'found': True, 'colours': ['white', 'blue']} | GT: {'found': False, 'colours': []} | Time: 15.01s
+[IMG20250612151238.jpg] -> {'answer': ' The colour of Balloon is blue.', 'found': True, 'colours': ['blue']} | GT: {'found': False, 'colours': []} | Time: 15.15s
+[IMG20250612151242.jpg] -> {'answer': ' The balloon is white and grey.', 'found': True, 'colours': ['white']} | GT: {'found': False, 'colours': []} | Time: 14.51s
+[IMG20250612151251.jpg] -> {'answer': ' The image shows a mosaic of the colours of the balloon, including white, blue, green, red, and brown.', 'found': True, 'colours': ['blue', 'green', 'white', 'brown', 'red']} | GT: {'found': False, 'colours': []} | Time: 16.07s
+
+Resumen para prompt 'list-colors-4':
+Latencia media: 12.84 s
+Precisión detección: 61.11%
+Precisión colores: 55.56%
+
+-- Prompt: list-colors-5 --
+
+[img5.jpg] -> {'answer': ' The balloons in the image are of various colors, including red, yellow, blue, and orange.', 'found': True, 'colours': ['orange', 'yellow', 'blue', 'red']} | GT: {'found': True, 'colours': ['red', 'blue', 'orange', 'yellow', 'pink']} | Time: 15.46s
+[not-img2.jpg] -> {'answer': ' White', 'found': True, 'colours': ['white']} | GT: {'found': False, 'colours': []} | Time: 9.44s
+[img3.png] -> {'answer': ' The balloon in the image is red.', 'found': True, 'colours': ['red']} | GT: {'found': True, 'colours': ['red']} | Time: 10.05s
+[img1.png] -> {'answer': ' White', 'found': True, 'colours': ['white']} | GT: {'found': True, 'colours': ['white']} | Time: 9.39s
+[img2.jpg] -> {'answer': ' Red', 'found': True, 'colours': ['red']} | GT: {'found': True, 'colours': ['red']} | Time: 10.02s
+[img4.jpg] -> {'answer': ' Green', 'found': True, 'colours': ['green']} | GT: {'found': True, 'colours': ['green']} | Time: 5.49s
+[img6.png] -> {'answer': ' White', 'found': True, 'colours': ['white']} | GT: {'found': True, 'colours': ['white']} | Time: 13.71s
+[IMG20250612151131.jpg] -> {'answer': ' White', 'found': True, 'colours': ['white']} | GT: {'found': False, 'colours': []} | Time: 9.38s
+[IMG20250612151157.jpg] -> {'answer': ' The balloon in the image is blue.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 13.89s
+[IMG20250612151150.jpg] -> {'answer': ' The balloon in the image is blue.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 14.74s
+[IMG20250612151202.jpg] -> {'answer': ' Blue', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 14.09s
+[IMG20250612151208.jpg] -> {'answer': ' Blue', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 13.33s
+[IMG20250612151224.jpg] -> {'answer': ' Blue', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 13.25s
+[IMG20250612151229.jpg] -> {'answer': ' Blue', 'found': True, 'colours': ['blue']} | GT: {'found': False, 'colours': []} | Time: 13.38s
+[IMG20250612151233.jpg] -> {'answer': ' The balloon in the image is blue.', 'found': True, 'colours': ['blue']} | GT: {'found': False, 'colours': []} | Time: 14.42s
+[IMG20250612151238.jpg] -> {'answer': ' White', 'found': True, 'colours': ['white']} | GT: {'found': False, 'colours': []} | Time: 13.24s
+[IMG20250612151242.jpg] -> {'answer': ' White', 'found': True, 'colours': ['white']} | GT: {'found': False, 'colours': []} | Time: 13.24s
+[IMG20250612151251.jpg] -> {'answer': ' White', 'found': True, 'colours': ['white']} | GT: {'found': False, 'colours': []} | Time: 13.19s
+
+Resumen para prompt 'list-colors-5':
+Latencia media: 12.21 s
+Precisión detección: 61.11%
+Precisión colores: 55.56%
+
+-- Prompt: list-colors-6 --
+
+[img5.jpg] -> {'answer': ' The color of the balloons in the image is various, ranging from bright and vibrant colors such as yellow, orange, red, and blue.', 'found': True, 'colours': ['orange', 'yellow', 'blue', 'red']} | GT: {'found': True, 'colours': ['red', 'blue', 'orange', 'yellow', 'pink']} | Time: 15.96s
+[not-img2.jpg] -> {'answer': ' Green', 'found': True, 'colours': ['green']} | GT: {'found': False, 'colours': []} | Time: 10.23s
+[img3.png] -> {'answer': ' Red', 'found': True, 'colours': ['red']} | GT: {'found': True, 'colours': ['red']} | Time: 9.46s
+[img1.png] -> {'answer': ' White', 'found': True, 'colours': ['white']} | GT: {'found': True, 'colours': ['white']} | Time: 9.35s
+[img2.jpg] -> {'answer': ' Red', 'found': True, 'colours': ['red']} | GT: {'found': True, 'colours': ['red']} | Time: 9.39s
+[img4.jpg] -> {'answer': ' Green', 'found': True, 'colours': ['green']} | GT: {'found': True, 'colours': ['green']} | Time: 5.36s
+[img6.png] -> {'answer': ' White', 'found': True, 'colours': ['white']} | GT: {'found': True, 'colours': ['white']} | Time: 13.40s
+[IMG20250612151131.jpg] -> {'answer': ' White', 'found': True, 'colours': ['white']} | GT: {'found': False, 'colours': []} | Time: 9.41s
+[IMG20250612151157.jpg] -> {'answer': ' Blue', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 13.67s
+[IMG20250612151150.jpg] -> {'answer': ' Blue', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 13.98s
+[IMG20250612151202.jpg] -> {'answer': ' Blue', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 14.38s
+[IMG20250612151208.jpg] -> {'answer': ' Blue', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 13.28s
+[IMG20250612151224.jpg] -> {'answer': ' Blue', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 13.28s
+[IMG20250612151229.jpg] -> {'answer': ' Blue', 'found': True, 'colours': ['blue']} | GT: {'found': False, 'colours': []} | Time: 13.21s
+[IMG20250612151233.jpg] -> {'answer': ' Blue', 'found': True, 'colours': ['blue']} | GT: {'found': False, 'colours': []} | Time: 14.04s
+[IMG20250612151238.jpg] -> {'answer': ' Teal', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 13.41s
+[IMG20250612151242.jpg] -> {'answer': ' Pink', 'found': True, 'colours': ['pink']} | GT: {'found': False, 'colours': []} | Time: 13.26s
+[IMG20250612151251.jpg] -> {'answer': ' Pink', 'found': True, 'colours': ['pink']} | GT: {'found': False, 'colours': []} | Time: 12.92s
+
+Resumen para prompt 'list-colors-6':
+Latencia media: 12.11 s
+Precisión detección: 61.11%
+Precisión colores: 55.56%
+
+-- Prompt: list-colors-7 --
+
+[img5.jpg] -> {'answer': ' The balloon hues detected in the image are various colors, including red, yellow, blue, and orange.', 'found': True, 'colours': ['orange', 'yellow', 'blue', 'red']} | GT: {'found': True, 'colours': ['red', 'blue', 'orange', 'yellow', 'pink']} | Time: 14.58s
+[not-img2.jpg] -> {'answer': ' The image features a large, colorful balloon that is primarily red and white. The balloon is surrounded by a variety of other balloons, creating a vibrant and diverse display.', 'found': True, 'colours': ['white', 'red']} | GT: {'found': False, 'colours': []} | Time: 11.83s
+[img3.png] -> {'answer': ' The balloon in the image is red and black.', 'found': True, 'colours': ['black', 'red']} | GT: {'found': True, 'colours': ['red']} | Time: 9.76s
+[img1.png] -> {'answer': ' The balloon in the image has a white and red color scheme.', 'found': True, 'colours': ['white', 'red']} | GT: {'found': True, 'colours': ['white']} | Time: 9.97s
+[img2.jpg] -> {'answer': ' The balloon in the image is red and white.', 'found': True, 'colours': ['white', 'red']} | GT: {'found': True, 'colours': ['red']} | Time: 9.63s
+[img4.jpg] -> {'answer': ' The balloon in the image is bright green, which contrasts with the more neutral colors typically found in other balloons.', 'found': True, 'colours': ['green']} | GT: {'found': True, 'colours': ['green']} | Time: 7.01s
+[img6.png] -> {'answer': ' The balloon in the image is white and black.', 'found': True, 'colours': ['white', 'black']} | GT: {'found': True, 'colours': ['white']} | Time: 13.44s
+[IMG20250612151131.jpg] -> {'answer': ' The image features a white balloon with a blue stripe, which creates a visually striking contrast. The white balloon is accompanied by a gray curtain, which adds a sense of depth and contrast to the scene. The contrast between the white balloon and the gray curtain makes the composition visually appealing and interesting.', 'found': True, 'colours': ['white', 'gray', 'blue']} | GT: {'found': False, 'colours': []} | Time: 14.55s
+[IMG20250612151157.jpg] -> {'answer': ' The balloon in the image is blue and white.', 'found': True, 'colours': ['white', 'blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 13.45s
+[IMG20250612151150.jpg] -> {'answer': ' The balloon in the image is blue.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 13.22s
+[IMG20250612151202.jpg] -> {'answer': ' The balloon in the image is blue and white.', 'found': True, 'colours': ['white', 'blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 14.51s
+[IMG20250612151208.jpg] -> {'answer': ' The balloon in the image is a shade of blue, which creates a visually interesting contrast against the white background.', 'found': True, 'colours': ['white', 'blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 16.88s
+[IMG20250612151224.jpg] -> {'answer': ' The balloon in the image has a blue and white color scheme.', 'found': True, 'colours': ['white', 'blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 14.56s
+[IMG20250612151229.jpg] -> {'answer': ' The balloon hues in the image are primarily blue and white. The blue balloon is positioned on the left side of the image, while the white balloon is on the right side. The combination of these colors creates a visually interesting contrast, and the presence of the two large, colorful balloons suggests that they might be used for a creative or festive event.', 'found': True, 'colours': ['white', 'blue']} | GT: {'found': False, 'colours': []} | Time: 22.40s
+[IMG20250612151233.jpg] -> {'answer': ' The balloon hues in the image are primarily blue and white. The blue balloon is standing out against the white and blue background, creating a visually appealing contrast.', 'found': True, 'colours': ['white', 'blue']} | GT: {'found': False, 'colours': []} | Time: 18.01s
+[IMG20250612151238.jpg] -> {'answer': ' The balloon hues in the image are brown and white. The brown and white colors create a visually appealing contrast against the blue wall. This contrast adds a unique and interesting element to the overall design of the bathroom.', 'found': True, 'colours': ['white', 'brown', 'blue']} | GT: {'found': False, 'colours': []} | Time: 19.95s
+[IMG20250612151242.jpg] -> {'answer': ' The balloon hues in the image are primarily brown and beige, with some white and blue accents.', 'found': True, 'colours': ['white', 'brown', 'blue']} | GT: {'found': False, 'colours': []} | Time: 16.25s
+[IMG20250612151251.jpg] -> {'answer': ' The image features a mosaic of colorful balloons, creating a vibrant and visually appealing display.', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 15.37s
+
+Resumen para prompt 'list-colors-7':
+Latencia media: 14.19 s
+Precisión detección: 61.11%
+Precisión colores: 55.56%
+
+-- Prompt: two-step-1 --
+
+[img5.jpg] -> {'answer': ' Yes, there are balloons in the image. They are multicolored, with various colors including red, yellow, blue, and orange.', 'found': True, 'colours': ['orange', 'yellow', 'blue', 'red']} | GT: {'found': True, 'colours': ['red', 'blue', 'orange', 'yellow', 'pink']} | Time: 16.09s
+[not-img2.jpg] -> {'answer': ' Yes, there are balloons in the image. They are white.', 'found': True, 'colours': ['white']} | GT: {'found': False, 'colours': []} | Time: 10.58s
+[img3.png] -> {'answer': ' Yes, there are two balloons in the image. One balloon is red, and the other balloon is red.', 'found': True, 'colours': ['red']} | GT: {'found': True, 'colours': ['red']} | Time: 11.85s
+[img1.png] -> {'answer': ' Yes, there are two balloons in the image. One balloon is white, and the other balloon is orange.', 'found': True, 'colours': ['white', 'orange']} | GT: {'found': True, 'colours': ['white']} | Time: 11.54s
+[img2.jpg] -> {'answer': ' Yes, there are two balloons in the image. They are red and white in color.', 'found': True, 'colours': ['white', 'red']} | GT: {'found': True, 'colours': ['red']} | Time: 11.47s
+[img4.jpg] -> {'answer': ' Yes, there are two green balloons in the image.', 'found': True, 'colours': ['green']} | GT: {'found': True, 'colours': ['green']} | Time: 6.71s
+[img6.png] -> {'answer': ' Yes, there are balloons in the image. They are white.', 'found': True, 'colours': ['white']} | GT: {'found': True, 'colours': ['white']} | Time: 14.83s
+[IMG20250612151131.jpg] -> {'answer': ' Yes, there are balloons in the image. They are white in color.', 'found': True, 'colours': ['white']} | GT: {'found': False, 'colours': []} | Time: 10.71s
+[IMG20250612151157.jpg] -> {'answer': ' Yes, there are two balloons in the image. One balloon is blue, and the other is white.', 'found': True, 'colours': ['white', 'blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 16.18s
+[IMG20250612151150.jpg] -> {'answer': ' Yes, there are two balloons in the image. They are blue in color.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 16.19s
+[IMG20250612151202.jpg] -> {'answer': ' Yes, there are two balloons in the image. One balloon is blue, and the other balloon is white.', 'found': True, 'colours': ['white', 'blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 15.86s
+[IMG20250612151208.jpg] -> {'answer': ' Yes, there are two balloons in the image. They are blue in color.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 14.77s
+[IMG20250612151224.jpg] -> {'answer': ' Yes, there are two balloons in the image. One balloon is blue, and the other balloon is white.', 'found': True, 'colours': ['white', 'blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 16.45s
+[IMG20250612151229.jpg] -> {'answer': ' Yes, there are balloons in the image. They are blue and white in color.', 'found': True, 'colours': ['white', 'blue']} | GT: {'found': False, 'colours': []} | Time: 14.75s
+[IMG20250612151233.jpg] -> {'answer': ' Yes, there are balloons in the image. They are blue.', 'found': True, 'colours': ['blue']} | GT: {'found': False, 'colours': []} | Time: 14.23s
+[IMG20250612151238.jpg] -> {'answer': ' Yes, there are balloons in the image. They are blue.', 'found': True, 'colours': ['blue']} | GT: {'found': False, 'colours': []} | Time: 14.87s
+[IMG20250612151242.jpg] -> {'answer': ' Yes, there are balloons in the image. They are white.', 'found': True, 'colours': ['white']} | GT: {'found': False, 'colours': []} | Time: 14.94s
+[IMG20250612151251.jpg] -> {'answer': ' Yes, there are balloons in the image. They are white and blue.', 'found': True, 'colours': ['white', 'blue']} | GT: {'found': False, 'colours': []} | Time: 14.63s
+
+Resumen para prompt 'two-step-1':
+Latencia media: 13.70 s
+Precisión detección: 61.11%
+Precisión colores: 55.56%
+
+-- Prompt: two-step-2 --
+
+[img5.jpg] -> {'answer': ' Yes, there are balloons in the image. They are of various colors, including red, yellow, and blue.', 'found': True, 'colours': ['yellow', 'blue', 'red']} | GT: {'found': True, 'colours': ['red', 'blue', 'orange', 'yellow', 'pink']} | Time: 15.65s
+[not-img2.jpg] -> {'answer': ' Yes, there are balloons in the image. They are red and white in color.', 'found': True, 'colours': ['white', 'red']} | GT: {'found': False, 'colours': []} | Time: 11.03s
+[img3.png] -> {'answer': ' Yes, there is a balloon in the image. It is red and black.', 'found': True, 'colours': ['black', 'red']} | GT: {'found': True, 'colours': ['red']} | Time: 11.73s
+[img1.png] -> {'answer': ' Yes, there is a balloon in the image. It is white and appears to be floating in the air.', 'found': True, 'colours': ['white']} | GT: {'found': True, 'colours': ['white']} | Time: 11.96s
+[img2.jpg] -> {'answer': ' Yes, there is a red balloon in the image.', 'found': True, 'colours': ['red']} | GT: {'found': True, 'colours': ['red']} | Time: 11.19s
+[img4.jpg] -> {'answer': ' Yes, there is a green balloon in the image.', 'found': True, 'colours': ['green']} | GT: {'found': True, 'colours': ['green']} | Time: 6.61s
+[img6.png] -> {'answer': ' Yes, there is a balloon in the image. It is white.', 'found': True, 'colours': ['white']} | GT: {'found': True, 'colours': ['white']} | Time: 14.42s
+[IMG20250612151131.jpg] -> {'answer': ' Yes, there are balloons in the image. They are white and yellow.', 'found': True, 'colours': ['white', 'yellow']} | GT: {'found': False, 'colours': []} | Time: 10.34s
+[IMG20250612151157.jpg] -> {'answer': ' Yes, there are balloons in the image. They are blue and white.', 'found': True, 'colours': ['white', 'blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 14.06s
+[IMG20250612151150.jpg] -> {'answer': ' Yes, there is a balloon in the image. It is blue.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 13.99s
+[IMG20250612151202.jpg] -> {'answer': ' Yes, there is a balloon in the image. It is blue and white.', 'found': True, 'colours': ['white', 'blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 14.18s
+[IMG20250612151208.jpg] -> {'answer': ' Yes, there are balloons in the image. They are a combination of blue and white colors.', 'found': True, 'colours': ['white', 'blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 14.39s
+[IMG20250612151224.jpg] -> {'answer': ' Yes, there are balloons in the image. They are blue and white in color.', 'found': True, 'colours': ['white', 'blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 14.43s
+[IMG20250612151229.jpg] -> {'answer': ' Yes, there are balloons in the image. They are blue and white.', 'found': True, 'colours': ['white', 'blue']} | GT: {'found': False, 'colours': []} | Time: 14.13s
+[IMG20250612151233.jpg] -> {'answer': ' Yes, there are balloons in the image. They are blue and white.', 'found': True, 'colours': ['white', 'blue']} | GT: {'found': False, 'colours': []} | Time: 14.01s
+[IMG20250612151238.jpg] -> {'answer': ' Yes, there are balloons in the image. They are white and blue.', 'found': True, 'colours': ['white', 'blue']} | GT: {'found': False, 'colours': []} | Time: 15.62s
+[IMG20250612151242.jpg] -> {'answer': ' Yes, there are balloons in the image. They are white and blue.', 'found': True, 'colours': ['white', 'blue']} | GT: {'found': False, 'colours': []} | Time: 15.25s
+[IMG20250612151251.jpg] -> {'answer': ' Yes, there are balloons in the image. They are white, green, and blue.', 'found': True, 'colours': ['white', 'green', 'blue']} | GT: {'found': False, 'colours': []} | Time: 15.29s
+
+Resumen para prompt 'two-step-2':
+Latencia media: 13.24 s
+Precisión detección: 61.11%
+Precisión colores: 55.56%
+
+-- Prompt: two-step-3 --
+
+[img5.jpg] -> {'answer': ' Yes, there is a balloon in the image. The colors of the balloons are orange, yellow, and blue.', 'found': True, 'colours': ['orange', 'yellow', 'blue']} | GT: {'found': True, 'colours': ['red', 'blue', 'orange', 'yellow', 'pink']} | Time: 16.48s
+[not-img2.jpg] -> {'answer': ' Yes, there is a balloon in the image. It is white and appears to float above the road.', 'found': True, 'colours': ['white']} | GT: {'found': False, 'colours': []} | Time: 11.55s
+[img3.png] -> {'answer': ' Yes, there is a balloon in the image. It is red and appears to be floating in the air.', 'found': True, 'colours': ['red']} | GT: {'found': True, 'colours': ['red']} | Time: 13.08s
+[img1.png] -> {'answer': ' Yes, there is a balloon in the image. It is white and appears to be floating in the air.', 'found': True, 'colours': ['white']} | GT: {'found': True, 'colours': ['white']} | Time: 12.79s
+[img2.jpg] -> {'answer': ' Yes, there is a red balloon in the image.', 'found': True, 'colours': ['red']} | GT: {'found': True, 'colours': ['red']} | Time: 10.76s
+[img4.jpg] -> {'answer': ' Yes, there is a green balloon in the image.', 'found': True, 'colours': ['green']} | GT: {'found': True, 'colours': ['green']} | Time: 6.68s
+[img6.png] -> {'answer': ' Yes, there is a balloon in the image. It is white and appears to be floating in the air.', 'found': True, 'colours': ['white']} | GT: {'found': True, 'colours': ['white']} | Time: 15.83s
+[IMG20250612151131.jpg] -> {'answer': ' Yes, there is a balloon in the image. It is white and appears to be floating in the air.', 'found': True, 'colours': ['white']} | GT: {'found': False, 'colours': []} | Time: 11.23s
+[IMG20250612151157.jpg] -> {'answer': ' Yes, there is a balloon in the image. It is blue and white.', 'found': True, 'colours': ['white', 'blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 14.15s
+[IMG20250612151150.jpg] -> {'answer': ' Yes, there is a balloon in the image. It is blue and is sitting on the floor.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 14.47s
+[IMG20250612151202.jpg] -> {'answer': ' Yes, there is a balloon in the image. It is a large, bright blue balloon that stands out against the background.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 15.64s
+[IMG20250612151208.jpg] -> {'answer': ' Yes, there is a balloon in the image. It is a large blue balloon that is sitting on top of a stand.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 16.70s
+[IMG20250612151224.jpg] -> {'answer': ' Yes, there is a large blue balloon in the image.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 15.50s
+[IMG20250612151229.jpg] -> {'answer': ' Yes, there is a balloon in the image. It is blue and white.', 'found': True, 'colours': ['white', 'blue']} | GT: {'found': False, 'colours': []} | Time: 15.14s
+[IMG20250612151233.jpg] -> {'answer': ' Yes, there is a balloon in the image. It is white and blue.', 'found': True, 'colours': ['white', 'blue']} | GT: {'found': False, 'colours': []} | Time: 15.03s
+[IMG20250612151238.jpg] -> {'answer': ' Yes, there is a balloon in the image. It is white and appears to be floating in the bathroom.', 'found': True, 'colours': ['white']} | GT: {'found': False, 'colours': []} | Time: 16.24s
+[IMG20250612151242.jpg] -> {'answer': ' Yes, there is a balloon in the image. It is white and black in color.', 'found': True, 'colours': ['white', 'black']} | GT: {'found': False, 'colours': []} | Time: 15.32s
+[IMG20250612151251.jpg] -> {'answer': ' Yes, there is a balloon in the image. It is white and green in color.', 'found': True, 'colours': ['white', 'green']} | GT: {'found': False, 'colours': []} | Time: 15.99s
+
+Resumen para prompt 'two-step-3':
+Latencia media: 14.03 s
+Precisión detección: 61.11%
+Precisión colores: 55.56%
+
+-- Prompt: two-step-4 --
+
+[img5.jpg] -> {'answer': ' Yes, there is a balloon shown in the image. The colors are blue, yellow, and red.', 'found': True, 'colours': ['yellow', 'blue', 'red']} | GT: {'found': True, 'colours': ['red', 'blue', 'orange', 'yellow', 'pink']} | Time: 16.24s
+[not-img2.jpg] -> {'answer': ' Yes, there is a balloon shown in the image.', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 10.98s
+[img3.png] -> {'answer': ' Yes, there is a red balloon shown in the image.', 'found': True, 'colours': ['red']} | GT: {'found': True, 'colours': ['red']} | Time: 10.65s
+[img1.png] -> {'answer': ' Yes, there is a balloon shown in the image. It is white and appears to be floating in the air.', 'found': True, 'colours': ['white']} | GT: {'found': True, 'colours': ['white']} | Time: 11.81s
+[img2.jpg] -> {'answer': ' Yes, there is a red balloon shown in the image.', 'found': True, 'colours': ['red']} | GT: {'found': True, 'colours': ['red']} | Time: 10.70s
+[img4.jpg] -> {'answer': ' Yes, there is a green balloon shown in the image.', 'found': True, 'colours': ['green']} | GT: {'found': True, 'colours': ['green']} | Time: 6.61s
+[img6.png] -> {'answer': ' Yes, there is a white balloon shown in the image.', 'found': True, 'colours': ['white']} | GT: {'found': True, 'colours': ['white']} | Time: 14.32s
+[IMG20250612151131.jpg] -> {'answer': ' Yes, there is a balloon shown in the image. The balloon has white, blue, and green colors.', 'found': True, 'colours': ['white', 'blue', 'green']} | GT: {'found': False, 'colours': []} | Time: 12.12s
+[IMG20250612151157.jpg] -> {'answer': ' Yes, there is a blue balloon shown in the image.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 14.89s
+[IMG20250612151150.jpg] -> {'answer': ' Yes, there is a blue balloon shown in the image.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 14.58s
+[IMG20250612151202.jpg] -> {'answer': ' Yes, there is a large blue balloon in the image.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 14.50s
+[IMG20250612151208.jpg] -> {'answer': ' Yes, there is a large blue balloon in the image.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 14.84s
+[IMG20250612151224.jpg] -> {'answer': ' Yes, there is a large blue balloon shown in the image.', 'found': True, 'colours': ['blue']} | GT: {'found': True, 'colours': ['blue']} | Time: 14.93s
+[IMG20250612151229.jpg] -> {'answer': ' Yes, there is a balloon shown in the image.', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 14.56s
+[IMG20250612151233.jpg] -> {'answer': ' Yes, there is a balloon shown in the image.', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 14.55s
+[IMG20250612151238.jpg] -> {'answer': ' Yes, there is a balloon shown in the image.', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 14.51s
+[IMG20250612151242.jpg] -> {'answer': ' Yes, there is a balloon shown in the image.', 'found': True, 'colours': []} | GT: {'found': False, 'colours': []} | Time: 14.45s
+[IMG20250612151251.jpg] -> {'answer': ' Yes, there is a balloon shown in the image. It is white, green, and blue.', 'found': True, 'colours': ['white', 'green', 'blue']} | GT: {'found': False, 'colours': []} | Time: 15.69s
+
+Resumen para prompt 'two-step-4':
+Latencia media: 13.39 s
+Precisión detección: 61.11%
+Precisión colores: 55.56%
