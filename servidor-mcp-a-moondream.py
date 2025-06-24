@@ -22,6 +22,7 @@ server = Server("balloon-proxy")
 
 # ────────────────────────── HELPERS ─────────────────────────
 
+
 def read_image(path_or_uri: str) -> bytes:
     """Lee bytes de una ruta local o de un URI file:// …"""
     if path_or_uri.startswith("file://"):
@@ -30,7 +31,9 @@ def read_image(path_or_uri: str) -> bytes:
         path = path_or_uri  # ruta absoluta o relativa en disco
     return Path(path).read_bytes()
 
+
 # ────────────────────────── TOOL DEF ────────────────────────
+
 
 @server.list_tools()
 async def list_tools() -> list[types.Tool]:
@@ -55,7 +58,9 @@ async def list_tools() -> list[types.Tool]:
         )
     ]
 
+
 # ──────────────────────── TOOL HANDLER ──────────────────────
+
 
 @server.call_tool()
 async def call_tool(name: str, args: dict | None):
@@ -69,13 +74,15 @@ async def call_tool(name: str, args: dict | None):
     headers = {"Authorization": f"Bearer {API_KEY}"}
 
     async with httpx.AsyncClient() as client:
-        r = await client.post(FLASK_URL, files=files, headers=headers, timeout=30)
+        r = await client.post(FLASK_URL, files=files, headers=headers, timeout=50)
         r.raise_for_status()
         data = r.json()
 
     return [types.TextContent(type="text", text=str(data))]
 
+
 # ────────────────────────── MAIN LOOP ───────────────────────
+
 
 async def run():
     async with mcp.server.stdio.stdio_server() as (rx, tx):
@@ -84,13 +91,14 @@ async def run():
             tx,
             InitializationOptions(
                 server_name="balloon-proxy",
-                server_version="0.4.0",
+                server_version="0.4.1",
                 capabilities=server.get_capabilities(
                     notification_options=NotificationOptions(),
                     experimental_capabilities={},
                 ),
             ),
         )
+
 
 if __name__ == "__main__":
     asyncio.run(run())

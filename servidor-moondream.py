@@ -34,7 +34,7 @@ def load_model():
     if model is None:
         start_time = time.time()
         model = md.vl(
-            model="./moondream-models/moondream-0_5b-int8.mf"
+            model="./moondream-models/moondream-2b-int8.mf"
         )  # Inicializar el modelo
         end_time = time.time()
         print(f"Model loaded in {end_time - start_time:.2f} seconds.")
